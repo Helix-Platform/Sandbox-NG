@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+/* body {
+    overflow: auto!important;
+} */
+.sidebar .sidebar-background::after {
+    background: #2c2d44;
+    background-image: -moz-linear-gradient(45deg, #002025 2%, #3f3251 100%);
+    background-image: -webkit-linear-gradient(45deg, #002025 2%, #3f3251 100%);
+    background-image: linear-gradient(45deg, #002025 2%, #3f3251 100%);
+    opacity: 0.80;
+}
+
+.sidebar .logo {
+    padding: 0px 0px;
+}
+
+.sidebar .nav li a, .sidebar .nav li .dropdown-menu a {
+    color: #fff;
+}
+
+.sidebar .nav li:hover > a, .sidebar .nav li .dropdown-menu a:hover, .sidebar .nav li .dropdown-menu a:focus, .sidebar .nav li.active > [data-toggle="collapse"] {
+    color: #fff;
+}
+
+.sidebar .nav li .dropdown-menu a {
+    margin: 0;
+}
+.sidebar .nav li .dropdown-menu {
+    margin: 0;
+    background-color: #3C4858;
+}
+.sidebar[data-color="gray"] li.active > a {
+    background-color: #3C4858;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(244, 67, 54, 0.4);
+}
+.sidebar[data-color="orange"] li.active > a {
+    background-color: #fb8c00;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(244, 67, 54, 0.4);
+}
+
+.sidebar .nav .nav-item.terms-of-use {
+    position: absolute;
+    width: 100%;
+    bottom: 65px;
+}
