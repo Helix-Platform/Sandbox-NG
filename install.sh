@@ -39,7 +39,7 @@ sudo usermod -aG docker $USER
 
 echo "Docker Engine and Docker compose installed with success."
 
-sudo docker-compose up -d
+sudo docker-compose up -d --build --force-recreate
 nohup ./Helix-Orchestrator &> Helix-Orchestrator.out&
 nohup ./Helix-Hardware-Monitor &> Helix-Hardware-Monitor.out&
 sudo mkdir -p /opt/secrets/ssl_crt
