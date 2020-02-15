@@ -1,6 +1,10 @@
 #!/bin/bash
 # This script installs the requirements for the Helix installation.
 clear
+
+killall ./Helix-Hardware-Monitor
+killall ./Helix-Orchestrator
+
 echo "Welcome to Helix Sandbox Intallation"
 echo "Updating Ubuntu"
 
@@ -41,6 +45,7 @@ echo "Docker Engine and Docker compose installed with success."
 
 sudo openssl req -newkey rsa:2048 -x509 -nodes -keyout /opt/secrets/ssl_key/server.key -new -out /opt/secrets/ssl_crt/server.crt -config ./openssl-custom.cnf -sha256 -days 365
 
+sudo docker-compose down
 sudo docker-compose up -d --build --force-recreate
 nohup ./Helix-Orchestrator &> Helix-Orchestrator.out&
 nohup ./Helix-Hardware-Monitor &> Helix-Hardware-Monitor.out&
