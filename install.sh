@@ -39,9 +39,12 @@ sudo usermod -aG docker $USER
 
 echo "Docker Engine and Docker compose installed with success."
 
+sudo openssl req -newkey rsa:2048 -x509 -nodes -keyout /opt/secrets/ssl_key/server.key -new -out /opt/secrets/ssl_crt/server.crt -config ./openssl-custom.cnf -sha256 -days 365
+
 sudo docker-compose up -d --build --force-recreate
 nohup ./Helix-Orchestrator &> Helix-Orchestrator.out&
 nohup ./Helix-Hardware-Monitor &> Helix-Hardware-Monitor.out&
 sudo mkdir -p /opt/secrets/ssl_crt
 sudo mkdir -p /opt/secrets/ssl_key
+
 #docker network create helix
