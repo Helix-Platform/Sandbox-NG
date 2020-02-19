@@ -40,6 +40,7 @@ sudo systemctl start docker
 
 # Enable nonroot docker usage
 sudo usermod -aG docker $USER
+su - $USER
 
 echo "Docker Engine and Docker compose installed with success."
 
