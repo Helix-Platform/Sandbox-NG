@@ -41,10 +41,5 @@
 .sidebar .nav .nav-item.terms-of-use {
     position: absolute;
     width: 100%;
-    bottom: 115px;
-}
-.sidebar .nav .nav-item.logout {
-    position: absolute;
-    width: 100%;
     bottom: 65px;
 }
