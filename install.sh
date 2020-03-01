@@ -40,12 +40,12 @@ sudo systemctl start docker
 
 # Enable nonroot docker usage
 sudo usermod -aG docker $USER
-su - $USER
 
 echo "Docker Engine and Docker compose installed with success."
 
 sudo mkdir -p /opt/secrets/ssl_crt
 sudo mkdir -p /opt/secrets/ssl_key
+mkdir -p ~/data/helix
 
 sudo openssl req -newkey rsa:2048 -x509 -nodes -keyout /opt/secrets/ssl_key/server.key -new -out /opt/secrets/ssl_crt/server.crt -config ./openssl-custom.cnf -sha256 -days 365
 
