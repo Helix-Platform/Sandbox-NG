@@ -2,8 +2,7 @@
 # This script installs the requirements for the Helix installation.
 clear
 
-killall ./Helix-Hardware-Monitor
-killall ./Helix-Orchestrator
+pkill Helix
 
 echo "Welcome to Helix Sandbox Intallation"
 echo "Updating Ubuntu"
