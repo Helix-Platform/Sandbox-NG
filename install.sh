@@ -1,8 +1,8 @@
 #!/bin/bash
 # This script installs the requirements for the Helix installation.
 clear
-
-pkill Helix
+sudo pkill Helix
+sudo rm *.out
 
 echo "Welcome to Helix Sandbox Intallation"
 echo "Updating Ubuntu"
