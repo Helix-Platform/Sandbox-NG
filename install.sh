@@ -19,9 +19,12 @@ sudo apt-get -y update
 sudo apt-get -y install apt-transport-https ca-certificates curl software-properties-common
 sudo apt-get -y install sed
 
+codename=xenial
+mongodb=3.6
+
 sudo apt-get install gnupg
-wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
-echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
+wget -qO- https://www.mongodb.org/static/pgp/server-${mongodb}.asc | sudo apt-key add
+sudo bash -c "echo deb http://repo.mongodb.org/apt/ubuntu ${codename}/mongodb-org/${mongodb} multiverse > /etc/apt/sources.list.d/mongodb-org.list"
 sudo apt-get update
 sudo apt-get install -y mongodb-org=3.6.3 mongodb-org-server=3.6.3 mongodb-org-shell=3.6.3 mongodb-org-mongos=3.6.3 mongodb-org-tools=3.6.3
 
