@@ -24,9 +24,15 @@ mongodb=3.6
 
 sudo apt-get install gnupg
 wget -qO- https://www.mongodb.org/static/pgp/server-${mongodb}.asc | sudo apt-key add
-sudo bash -c "echo deb http://repo.mongodb.org/apt/ubuntu ${codename}/mongodb-org/${mongodb} multiverse > /etc/apt/sources.list.d/mongodb-org.list"
+sudo bash -c "echo deb http://repo.mongodb.org/apt/ubuntu ${codename}/mongodb-org/$mongodb multiverse > /etc/apt/sources.list.d/mongodb-org.list"
 sudo apt-get update
 sudo apt-get install -y mongodb-org=3.6.3 mongodb-org-server=3.6.3 mongodb-org-shell=3.6.3 mongodb-org-mongos=3.6.3 mongodb-org-tools=3.6.3
+
+echo "mongodb-org hold" | sudo dpkg --set-selections
+echo "mongodb-org-server hold" | sudo dpkg --set-selections
+echo "mongodb-org-shell hold" | sudo dpkg --set-selections
+echo "mongodb-org-mongos hold" | sudo dpkg --set-selections
+echo "mongodb-org-tools hold" | sudo dpkg --set-selections
 
 # Add docker's package signing key
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
