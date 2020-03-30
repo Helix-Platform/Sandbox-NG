@@ -10,4 +10,6 @@ sudo docker rmi -f $(docker images -a -q)
 sudo rm -rf /opt/secrets/ssl_crt
 sudo rm -rf /opt/secrets/ssl_key
 
+sudo rm -rf ~/data
+
 ./install.sh
