@@ -18,5 +18,6 @@ sudo rm -rf /opt/secrets/ssl_crt
 sudo rm -rf /opt/secrets/ssl_key
 
 sudo rm -rf ~/data
+sudo rm -rf /home/root/data/helix
 
 ./install.sh
