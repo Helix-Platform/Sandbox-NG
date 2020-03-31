@@ -10,6 +10,7 @@ mongo --port 28018 iotagentul --eval "db.getCollectionNames().forEach(function(n
 sudo pkill Helix
 sudo rm *.out
 
+sudo docker stop $(docker ps -a -q)
 sudo docker rm -vf $(docker ps -a -q)
 sudo docker rmi -f $(docker images -a -q)
 
