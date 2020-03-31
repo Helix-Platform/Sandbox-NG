@@ -57,3 +57,53 @@
  @import "core/responsive";
 
 @import "core/angular-modal.scss";
+
+.loading {
+    font-family:sans-serif;
+    font-weight:200;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: #6f6f6f;
+    opacity: 60%;
+    
+      span {
+          position: absolute;
+          top: 50%; left: 50%;
+          content: '';
+          height: 20px; width: 20px;
+          border:#FFF 3px solid;
+          border-radius: 50%;
+          -webkit-animation: loading 1.5s infinite;
+          -webkit-animation-delay: 250ms;
+          -webkit-transform: scale(0.6);
+          @include box-sizing(border-box);
+          margin: -10px 0 0 -10px;
+      
+          &:first-child {
+              margin: -10px 0 0 -35px;
+              -webkit-animation-delay: 0;
+          }
+      
+          &:last-child {
+              margin: -10px 0 0 15px;
+              -webkit-animation-delay: 500ms;
+          }
+   
+      }
+      &:after {
+          position: absolute;
+          top: 50%; left: 50%;
+        //   content: 'loading';
+          height: 20px; width: 100px;
+          margin: 20px 0 0 -50px;
+          text-align: center;
+          color: rgba(white, 0.4);
+          text-transform: uppercase;
+      }
+  }
+  
+  @-webkit-keyframes loading {
+    0%   { -webkit-transform: scale(0.6); }
+    50%	{ -webkit-transform: scale(0.8); }
+    100% { -webkit-transform: scale(0.6); }
+  }
