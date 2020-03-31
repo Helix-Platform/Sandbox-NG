@@ -10,9 +10,9 @@ mongo --port 28018 iotagentul --eval "db.getCollectionNames().forEach(function(n
 sudo pkill Helix
 sudo rm *.out
 
-sudo docker stop $(docker ps -a -q)
-sudo docker rm -vf $(docker ps -a -q)
-sudo docker rmi -f $(docker images -a -q)
+sudo docker stop $(sudo docker ps -a -q)
+sudo docker rm -vf $(sudo docker ps -a -q)
+sudo docker rmi -f $(sudo docker images -a -q)
 
 sudo rm -rf /opt/secrets/ssl_crt
 sudo rm -rf /opt/secrets/ssl_key
