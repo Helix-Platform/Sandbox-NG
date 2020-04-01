@@ -13,8 +13,8 @@ You need to open all the ports below in the firewall settings at your cloud serv
 5000/TCP - Helix Web Interface
 1026/TCP - CEF Context Broker
 27000/TCP - MongoDB (Historical Data Access)
-1883/UDP - Eclipse-Mosquitto (MQTT Broker)
-4041/UDP - IoT Agent MQTT
+1883/TCP - Eclipse-Mosquitto (MQTT Broker)
+4041/TCP - IoT Agent MQTT
 ```
 
 ### Automated installation (Let us help you with that!)
