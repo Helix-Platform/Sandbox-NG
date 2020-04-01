@@ -23,7 +23,7 @@ Give your smart environment application the ability to analyse, share, manage an
 
 ## Inside 
 
-<img src="https://github.com/Helix-Platform/Sandbox-NG/blob/master/images/helixsandbox_ng_white.png">
+<img src="https://github.com/Helix-Platform/Sandbox-NG/blob/master/images/helixsandbox_ng.png">
 
 <br>
 
