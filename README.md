@@ -45,35 +45,18 @@ Give your smart environment application the ability to analyse, share, manage an
    
    <a href="docs/create_broker.md">Walkthrough for setup CEF Context Broker</a>
    
-   <a href="docs/coap_lwm2m.md">Walkthrough for setup IoT agent CoAP LWM2M</a>
-      
-   <a href="docs/cygnus_historical_storage.md">Enabling Historical Data into MongoDB</a>   
-   
-   <a href="docs/python.md">Management Context Information in Python</a>
-   
-   <a href="https://github.com/fabiocabrini/helix-IoT-MQTT">Helix IoT with MQTT</a>
-     
+   <a href="docs/coap_lwm2m.md">Walkthrough for setup IoT agent MQTT</a>
+        
 ## Additional Resources
 
    <a href="https://play.google.com/store/apps/details?id=br.net.smit.helix">App Helix for Android</a>
   
    <a href="https://fiware-orion.readthedocs.io/en/master/index.html">CEF Context Broker</a>
    
-   <a href="https://fiware-cygnus.readthedocs.io/en/latest/">Cygnus</a>
-  
-   <a href="https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.01.01_60/gs_CIM009v010101p.pdf">NGSI</a>
-
    <a href="https://github.com/FIWARE/tutorials.Linked-Data/blob/master/README.md">NGSI-LD</a>
 
    <a href="https://fiware-datamodels.readthedocs.io/en/latest/index.html">Data Models</a>
-
-   <a href="https://github.com/m4n3dw0lf/SecureFiware">IoT agent CoAP DTLS</a>
-
-   <a href="https://github.com/fabiocabrini/helix-sandbox/blob/master/dht%20demo.postman_collection.json">Postman Collection - The most used HTTP methods within Helix Sandbox</a>
-
-   <a href="https://goo.gl/nX8iMG">Temperature sensor for Arduino - code</a>
-
-   <a href="https://goo.gl/TxBwJa">Temperature sensor for Arduino - electrical schema</a>
-
+   
+   <a href="https://documenter.getpostman.com/view/513743/fiware-entity-relationships/RVu8gSCh?version=latest">FIWARE Entity Relationships</a> 
 
 #### © Helix Platform 2020, All rights reserved.
