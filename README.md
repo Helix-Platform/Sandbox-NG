@@ -50,11 +50,11 @@ Give your smart environment application the ability to analyse, share, manage an
 ## Additional Resources
 
    <a href="https://play.google.com/store/apps/details?id=br.net.smit.helix">App Helix for Android</a>
+   
+   <a href="https://play.google.com/store/apps/details?id=snr.lab.iotmqttpanel.prod">App IoT MQTT Panel</a>
   
    <a href="https://fiware-orion.readthedocs.io/en/master/index.html">CEF Context Broker</a>
    
-   <a href="https://github.com/FIWARE/tutorials.Linked-Data/blob/master/README.md">NGSI-LD</a>
-
    <a href="https://fiware-datamodels.readthedocs.io/en/latest/index.html">Data Models</a>
    
    <a href="https://documenter.getpostman.com/view/513743/fiware-entity-relationships/RVu8gSCh?version=latest">FIWARE Entity Relationships</a> 
