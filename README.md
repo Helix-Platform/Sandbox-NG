@@ -33,7 +33,7 @@ Give your smart environment application the ability to analyse, share, manage an
     
    <a href="docs/requirements.md">Requirements & Installation</a>
   
-   <a href="docs/update_reset.md">Start, Update or Reset Helix Sandbox</a>
+   <a href="docs/reset.md">Reset Helix Sandbox</a>
    
    <a href="docs/backup.md">Backup</a>
    
