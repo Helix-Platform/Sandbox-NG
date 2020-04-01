@@ -20,7 +20,7 @@ You need to open all the ports below in the firewall settings at your cloud serv
 ### Automated installation (Let us help you with that!)
 
 ```
-git clone https://github.com/fabiocabrini/helix-sandbox.git
+git clone https://github.com/Helix-Platform/Sandbox-NG.git
 cd Sandbox-NG
 ./install.sh
 ```
