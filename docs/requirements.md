@@ -1,6 +1,6 @@
 ## Requirements before Helix Sandbox NG installation
 
-Use any local hypervisor like Virtual Box, VMware and KVM or if you need a global internet access we suggest any Cloud Service Provicer (CSP) like AWS, Azure or Google. 
+Use any local hypervisor like Virtual Box, VMware and KVM or if you need a global Internet access we suggest any Cloud Service Provicer (CSP) like AWS, Azure or Google. 
 
 Minimum server configuration: 1 vCPU, 1GB RAM and 16GB HDD or SSD.
 
@@ -9,12 +9,12 @@ Install any Linux distribution, but Ubuntu Server 18.04.4 LTS has been validated
 You need to open all the ports below in the firewall settings at your CSP:
 
 ```
-22/TCP - SSH 
+22/TCP - SSH (Machine Setup)
 5000/TCP - Helix Web Interface
-1026/TCP - CEF Context Broker
+1026/TCP - CEF Context Broker (Setup and Access)
 27000/TCP - MongoDB (Historical Data Access)
-1883/TCP - Eclipse-Mosquitto (MQTT Broker)
-4041/TCP - IoT Agent MQTT
+1883/TCP - Eclipse-Mosquitto (MQTT Broker Access)
+4041/TCP - IoT Agent MQTT (IoT Agent Setup)
 ```
 
 ### Automated installation (Let us help you with that!)
