@@ -8,8 +8,9 @@ Install any Linux distribution, but Ubuntu Server 18.04.4 LTS has been validated
 
 You need to open all the ports below in the firewall settings at your CSP:
 
+
+### Port         Transport             Protocol 
 ```
-####Port         Transport             Protocol 
 22              TCP           SSH (Machine Setup)
 5000            TCP           Helix Web Interface
 1026            TCP           CEF Context Broker (Setup and Access)
