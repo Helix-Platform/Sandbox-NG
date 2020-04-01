@@ -9,12 +9,13 @@ Install any Linux distribution, but Ubuntu Server 18.04.4 LTS has been validated
 You need to open all the ports below in the firewall settings at your CSP:
 
 ```
-22/TCP - SSH (Machine Setup)
-5000/TCP - Helix Web Interface
-1026/TCP - CEF Context Broker (Setup and Access)
-27000/TCP - MongoDB (Historical Data Access)
-1883/TCP - Eclipse-Mosquitto (MQTT Broker Access)
-4041/TCP - IoT Agent MQTT (IoT Agent Setup)
+####Port         Transport             Protocol 
+22              TCP           SSH (Machine Setup)
+5000            TCP           Helix Web Interface
+1026            TCP           CEF Context Broker (Setup and Access)
+27000           TCP           MongoDB (Historical Data Access)
+1883            TCP           Eclipse-Mosquitto (MQTT Broker Access)
+4041            TCP           IoT Agent MQTT (IoT Agent Setup)
 ```
 
 ### Automated installation (Let us help you with that!)
