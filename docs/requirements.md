@@ -6,7 +6,7 @@ Minimum server configuration: 1 vCPU, 1GB RAM and 16GB HDD or SSD.
 
 Install any Linux distribution, but Ubuntu Server 18.04.4 LTS has been validated exhaustively for us.
 
-You need to open all the ports below in the firewall settings at your cloud service provider:
+You need to open all the ports below in the firewall settings at your CSP:
 
 ```
 22/TCP - SSH 
