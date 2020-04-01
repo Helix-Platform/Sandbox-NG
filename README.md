@@ -3,7 +3,7 @@ Helix Sandbox Next Generation
 
 ## About
 
-Helix Sandbox is an open source back-end platform with a lightweight approach to IoT integration geared towards developing applications for smart environments, presenting a multi-cloud approach that can be executed in any CSP (Cloud Service Providers), hypervisor or bare-metal. 
+Helix Sandbox is a free back-end platform with a lightweight approach to IoT integration geared towards developing applications for smart environments, presenting a multi-cloud approach that can be executed in any CSP (Cloud Service Providers), hypervisor or bare-metal. 
 
 Our goals
 
@@ -76,4 +76,4 @@ Give your smart environment application the ability to analyse, share, manage an
    <a href="https://goo.gl/TxBwJa">Temperature sensor for Arduino - electrical schema</a>
 
 
-#### © Helix Platform 2019, All rights reserved.
+#### © Helix Platform 2020, All rights reserved.
