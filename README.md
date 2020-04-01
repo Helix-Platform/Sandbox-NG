@@ -15,9 +15,9 @@ The integrated architecture is based on the next generation of GE, which enables
 
 Designed for PoCs (Proofs of Concept), Startups MVPs (Minimal Viable Product), Students, Scientific Researches, and Experimental Applications using a few computational resources.
 
-Helix Sandbox supports the most popular IoT protocols like CoAP, MQTT, Lora, OPC, SigFox, and HTTP compatible.
+Helix Sandbox NG supports MQTT (Message Queue Telemetry Transport) the most popular IoT Broker.
 
-Give your smart environment application the ability to analyse, share, manage and use in real time at right time.
+Give your smart environment application the ability to analyse, share, manage and use in real time at right time!
 
 <br>
 
@@ -60,3 +60,4 @@ Give your smart environment application the ability to analyse, share, manage an
    <a href="https://documenter.getpostman.com/view/513743/fiware-entity-relationships/RVu8gSCh?version=latest">FIWARE Entity Relationships</a> 
 
 #### © Helix Platform 2020, All rights reserved.
+<a href="https://gethelix.org">Helix website</a> 
