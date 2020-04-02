@@ -47,7 +47,7 @@ Give your smart environment application the ability to analyse, share, manage an
    
    <a href="docs/coap_lwm2m.md">Walkthrough for setup IoT agent MQTT</a>
    
-   <a href="postman/gohelix_postman_collection.json">Go Helix! Postman Collection</a>
+   <a href="postman/gohelix_postman_collection.json">Go Helix! Postman Collection for CEF Context Broker and MQTT</a>
    
    
         
