@@ -64,4 +64,4 @@ Give your smart environment application the ability to analyse, share, manage an
    <a href="https://documenter.getpostman.com/view/513743/fiware-entity-relationships/RVu8gSCh?version=latest">FIWARE Entity Relationships</a> 
 
 #### © Helix Platform 2020, All rights reserved.
-<a href="https://gethelix.org">Helix website</a> 
+<a href="https://gethelix.org">Helix</a> for a better world! 
