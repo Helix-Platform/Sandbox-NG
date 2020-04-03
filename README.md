@@ -41,11 +41,11 @@ Give your smart environment application the ability to analyse, share, manage an
 
 ## Tutorials
 
-   <a href="docs/accessing.md">Dashboard Helix Sandbox NG</a>
+   <a href="docs/dashboard.md">Dashboard Helix Sandbox NG</a>
    
-   <a href="docs/create_broker.md">Walkthrough for setup CEF Context Broker</a>
+   <a href="docs/create_cef_context_broker.md">Walkthrough for setup CEF Context Broker</a>
    
-   <a href="docs/coap_lwm2m.md">Walkthrough for setup IoT agent MQTT</a>
+   <a href="docs/create_mqtt_broker.md">Walkthrough for setup IoT agent MQTT</a>
    
    <a href="postman/gohelix_postman_collection.json">Go Helix! Postman Collection for CEF Context Broker and MQTT</a>
    
