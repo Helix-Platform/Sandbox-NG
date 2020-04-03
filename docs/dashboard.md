@@ -4,5 +4,5 @@
 - Access: http://<HELIX_IP>:5000
 - Choose a strong password to the **admin** account
 
-![](images/dashboard.JPG)
+![](../images/dashboard.JPG)
 
