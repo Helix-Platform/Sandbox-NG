@@ -6,7 +6,8 @@
 ## First Login
 
 - Choose a strong password to the **admin** account
-![](../images/first_login.JPG
+
+![](../images/first_login.JPG)
 
 ## Dashboard
 
