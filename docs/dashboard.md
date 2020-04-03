@@ -2,7 +2,13 @@
 
 - You can use your preferred web browser
 - Access: http://<HELIX_IP>:5000
+
+## First Login
+
 - Choose a strong password to the **admin** account
+![](../images/first_login.JPG
+
+## Dashboard
 
 ![](../images/dashboard.JPG)
 
