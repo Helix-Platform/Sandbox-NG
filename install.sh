@@ -61,8 +61,6 @@ sudo mkdir -p /opt/secrets/ssl_crt
 sudo mkdir -p /opt/secrets/ssl_key
 mkdir -p ~/data/helix
 
-sudo openssl req -newkey rsa:2048 -x509 -nodes -keyout /opt/secrets/ssl_key/server.key -new -out /opt/secrets/ssl_crt/server.crt -config ./openssl-custom.cnf -sha256 -days 365
-
 sudo docker-compose down
 sudo docker-compose up -d --build --force-recreate
 nohup sudo ./Helix-Orchestrator &> Helix-Orchestrator.out&
