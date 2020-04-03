@@ -41,7 +41,7 @@ Give your smart environment application the ability to analyse, share, manage an
 
 ## Tutorials
 
-   <a href="docs/dashboard.md">Dashboard Helix Sandbox NG</a>
+   <a href="docs/dashboard.md">First Access and Dashboard Helix Sandbox NG</a>
    
    <a href="docs/create_cef_context_broker.md">Walkthrough for setup CEF Context Broker</a>
    
