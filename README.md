@@ -46,6 +46,10 @@ Give your smart environment application the ability to analyse, share, manage an
    <a href="docs/create_broker.md">Walkthrough for setup CEF Context Broker</a>
    
    <a href="docs/coap_lwm2m.md">Walkthrough for setup IoT agent MQTT</a>
+   
+   <a href="postman/gohelix_postman_collection.json">Go Helix! Postman Collection for CEF Context Broker and MQTT</a>
+   
+   
         
 ## Additional Resources
 
@@ -60,4 +64,4 @@ Give your smart environment application the ability to analyse, share, manage an
    <a href="https://documenter.getpostman.com/view/513743/fiware-entity-relationships/RVu8gSCh?version=latest">FIWARE Entity Relationships</a> 
 
 #### © Helix Platform 2020, All rights reserved.
-<a href="https://gethelix.org">Helix website</a> 
+<a href="https://gethelix.org">Helix</a> for a better world! 
