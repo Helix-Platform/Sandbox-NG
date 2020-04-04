@@ -12,8 +12,6 @@
 
 ![](../images/cef_context_broker_4.JPG)
 
-![](../images/cef_context_broker_5.JPG)
-
 ## Check CEF Context Broker Status
 
 ![](../images/cef_context_broker_6.JPG)
