@@ -6,7 +6,6 @@
 
 ![](../images/cef_context_broker_2.JPG)
 
-
 ![](../images/cef_context_broker_3.JPG)
 
 ## Setup the Historical Persistance
