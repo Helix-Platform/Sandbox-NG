@@ -47,7 +47,7 @@ Give your smart environment application the ability to analyse, share, manage an
    
    <a href="docs/create_mqtt_broker.md">Walkthrough for setup IoT agent MQTT</a>
    
-   <a href= "docs/change_password.md">Walkthrough to change your password</a>
+   <a href= "docs/change_password.md">Walkthrough for change your password</a>
    
    <a href="docs/helix_with_mqtt.md">How can I use MQTT with Helix?</a> 
    
