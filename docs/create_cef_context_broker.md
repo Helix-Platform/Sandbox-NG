@@ -2,9 +2,9 @@
 
 ![](../images/cef_context_broker_1.JPG)
 
-![](../images/cef_context_broker_2.JPG)
-
 ## Running the CEF Context Broker
+
+![](../images/cef_context_broker_2.JPG)
 
 ![](../images/cef_context_broker_3.JPG)
 
