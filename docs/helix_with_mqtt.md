@@ -3,7 +3,7 @@
 ## About
 
 Helix IoT MQTT is a modular component that allows MQTT protocol-based IoT devices to transmit data to Helix Sandbox. The
-UltraLight 2.0 IoT Agent is configured to communicate with a set of cell phone IoT devices from [IoT MQTT Panel](https://play.google.com/store/apps/details?id=snr.lab.iotmqttpanel.prod&hl=pt_BR) using [Eclipse Mosquitto™](https://mosquitto.org/) an open source MQTT message broker. This module can be installed on the edge on a [Raspberry Pi 3](https://github.com/telefonicaid/fiware-orion/blob/master/docker/raspberry_pi.md).
+UltraLight 2.0 IoT Agent is configured to communicate with a set of cell phone IoT devices from [IoT MQTT Panel](https://play.google.com/store/apps/details?id=snr.lab.iotmqttpanel.prod&hl=pt_BR) using [Eclipse Mosquitto™](https://mosquitto.org/) an open source MQTT message broker. This module can be installed on the edge on a [Raspberry Pi](https://github.com/telefonicaid/fiware-orion/blob/master/docker/raspberry_pi.md).
 
 ## Checking the IoT Agent Health
 
