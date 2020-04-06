@@ -5,11 +5,11 @@ Helix Sandbox Next Generation
 
 Helix Sandbox is a free back-end platform with a lightweight approach to IoT integration geared towards developing applications for smart environments, presenting a multi-cloud approach that can be executed in any CSP (Cloud Service Providers), hypervisor or bare-metal. 
 
-Our goals
+Our goals:
 
-Innovative microservice architecture, generic enablers orchestration, agnostic cloud service provider, agnostic hypervisors, faster to deploy a wide variety of IoT applications, easier web interface, and main fiware generic enablers.
+Innovative microservice architecture, generic enablers orchestration, agnostic cloud service provider, agnostic hypervisors, faster to deploy a wide variety of IoT applications, easier web interface and based on Fiware generic enablers.
 
-Helix simplify the process of installation and configuration through an easy-to-use graphical interface that enables orchestration of their components.
+Helix simplify the process of installation and configuration through an intuitive graphical interface that enables orchestration of their components.
 
 The integrated architecture is based on the next generation of GE, which enables a new generation of applications for intelligent environments that exploit large-scale and real-time context information in CIM (Context Information Management) based on the NGSI-LD API defined by ETSI (European Network of Telecommunications Standards) as well as for the CEF (Connecting Europe Facility).
 
@@ -46,6 +46,8 @@ Give your smart environment application the ability to analyse, share, manage an
    <a href="docs/create_cef_context_broker.md">Walkthrough for setup CEF Context Broker</a>
    
    <a href="docs/create_mqtt_broker.md">Walkthrough for setup IoT agent MQTT</a>
+   
+   <a href= "docs/change_password.md">Walkthrough for change your password</a>
    
    <a href="docs/helix_with_mqtt.md">How can I use MQTT with Helix?</a> 
    

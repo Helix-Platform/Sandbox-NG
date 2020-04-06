@@ -9,6 +9,8 @@
 
 ![](../images/first_login.JPG)
 
+![](../images/welcome.JPG)
+
 ## Dashboard
 
 ![](../images/dashboard.JPG)
