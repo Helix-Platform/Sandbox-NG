@@ -9,7 +9,7 @@
 
 ![](../images/first_login.png)
 
-![](../images/welcome.JPG)
+![](../images/welcome.png)
 
 ## Dashboard
 
