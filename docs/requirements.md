@@ -21,8 +21,9 @@ Port         Transport             Protocol
 
 ### Automated installation (Let us help you with that!)
 
+Connect to the server via SSH and follow the instructions below
+
 ```
-ssh <user>@<helixsandbox IP>
 git clone https://github.com/Helix-Platform/Sandbox-NG.git
 cd Sandbox-NG
 ./install.sh
