@@ -45,23 +45,21 @@ We crossed Jupiter's orbit!
 
 ## Tutorials
 
-   <a href="docs/dashboard.md">First access to the Helix dashboard</a>
+   <a href="docs/dashboard.md">First access</a>
    
-   <a href="docs/create_cef_context_broker.md">Walkthrough for setup CEF Context Broker</a>
+   <a href="docs/create_cef_context_broker.md">Setup CEF Context Broker</a>
    
-   <a href="docs/create_mqtt_broker.md">Walkthrough for setup IoT agent MQTT</a>
+   <a href="docs/create_mqtt_broker.md">Setup IoT agent MQTT</a>
    
-   <a href= "docs/change_password.md">Walkthrough for change your password</a>
-   
-   <a href="docs/helix_with_mqtt.md">How can I use MQTT with Helix?</a> 
-   
-   <a href="postman/gohelix_postman_collection.json">Go Helix! Postman Collection for CEF Context Broker and MQTT</a>
-   
-   
-        
+   <a href= "docs/change_password.md">Change password</a>
+         
 ## Additional Resources
 
    <a href="https://play.google.com/store/apps/details?id=br.net.smit.helix">App Helix for Android</a>
+   
+   <a href="docs/helix_with_mqtt.md">MQTT Tutorial for Helix Sandbox</a> 
+   
+   <a href="postman/gohelix_postman_collection.json">Postman Collection for CEF Context Broker and MQTT</a>
    
    <a href="https://play.google.com/store/apps/details?id=snr.lab.iotmqttpanel.prod">App IoT MQTT Panel for Android</a>
   
