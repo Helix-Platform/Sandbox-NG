@@ -35,7 +35,7 @@ We crossed Jupiter's orbit!
     
    <a href="docs/requirements.md">Requirements & Installation</a>
   
-   <a href="docs/reset.md">Reset Helix Sandbox</a>
+   <a href="docs/reset.md">Start, Stop and Reset</a>
    
    <a href="docs/backup.md">Backup</a>
    
