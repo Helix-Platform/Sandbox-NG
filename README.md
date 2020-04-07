@@ -15,7 +15,9 @@ The integrated architecture is based on the next generation of GE, which enables
 
 Designed for PoCs (Proofs of Concept), Startups MVPs (Minimal Viable Product), Students, Scientific Researches, and Experimental Applications using a few computational resources.
 
-Helix Sandbox NG supports MQTT (Message Queue Telemetry Transport) the most popular IoT Broker.
+Helix Sandbox NG supports MQTT (Message Queue Telemetry Transport) the most popular IoT Broker. Mosquitto is lightweight and is suitable for use on all devices from low power single board computers to full servers.
+
+The MQTT protocol provides a lightweight method of carrying out messaging using a publish/subscribe model. This makes it suitable for Internet of Things messaging such as with low power sensors or mobile devices such as phones, embedded computers or microcontrollers.
 
 Give your smart environment application the ability to analyse, share, manage and use in real time at right time!
 
