@@ -1,8 +1,6 @@
 # Helix Sandbox NG
 Helix Sandbox Next Generation
 
-We crossed Jupiter's orbit!
-
 ## About
 
 Helix Sandbox is a free back-end platform with a lightweight approach to IoT integration geared towards developing applications for smart environments, presenting a multi-cloud approach that can be executed in any CSP (Cloud Service Providers), hypervisor or bare-metal. 
@@ -20,6 +18,8 @@ Designed for PoCs (Proofs of Concept), Startups MVPs (Minimal Viable Product), S
 Helix Sandbox NG supports MQTT (Message Queue Telemetry Transport) the most popular IoT Broker.
 
 Give your smart environment application the ability to analyse, share, manage and use in real time at right time!
+
+We crossed Jupiter's orbit!
 
 <br>
 
