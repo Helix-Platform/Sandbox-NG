@@ -13,5 +13,4 @@
 
 ## Dashboard
 
-![](../images/dashboard.JPG)
-
+![](../images/dashboard.png)
