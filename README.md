@@ -55,7 +55,7 @@ We crossed Jupiter's orbit!
          
 ## Additional Resources
 
-   <a href="https://play.google.com/store/apps/details?id=br.net.smit.helix">App Helix for Android developed by</a> <a href="http://www.smit.net.br">SMIT</a>
+   <a href="https://play.google.com/store/apps/details?id=br.net.smit.helix">App Helix for Android</> developed by <a href="http://www.smit.net.br">SMIT</a>
    
    <a href="docs/helix_with_mqtt.md">MQTT Tutorial for Helix Sandbox</a> 
    
