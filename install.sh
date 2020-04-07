@@ -62,6 +62,18 @@ sudo mkdir -p /opt/secrets/ssl_key
 mkdir -p ~/data/helix
 
 sudo docker-compose down
+
+echo "Starting Helix Sandbox NG Modules"
+
 sudo docker-compose up -d --build --force-recreate
-nohup sudo ./Helix-Orchestrator &> Helix-Orchestrator.out&
-nohup sudo ./Helix-Hardware-Monitor &> Helix-Hardware-Monitor.out&
+nohup sudo ./Helix-Orchestrator &> Helix-Orchestrator.log&
+nohup sudo ./Helix-Hardware-Monitor &> Helix-Hardware-Monitor.log&
+
+echo "Registering Helix Modules on startup boot sequence"
+
+echo "cd $(pwd)" >> helix-init.sh
+echo "./start.sh &> /var/logs/helix.log" >> helix-init.sh
+sudo cp ./helix-init.sh /etc/init.d/
+sudo update-rc.d helix-init.sh defaults
+
+git checkout .
