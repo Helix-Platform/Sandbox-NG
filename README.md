@@ -57,6 +57,8 @@ We crossed Jupiter's orbit!
 
    <a href="https://play.google.com/store/apps/details?id=br.net.smit.helix">App Helix for Android</a> developed by <a href="http://www.smit.net.br">SMIT</a>
    
+   <a href="docs/helix_with_cef.md">CEF Context Broker Tutorial for Helix Sandbox</a>
+   
    <a href="docs/helix_with_mqtt.md">MQTT Tutorial for Helix Sandbox</a> 
    
    <a href="postman/gohelix_postman_collection.json">Postman Collection for CEF Context Broker and MQTT</a>
