@@ -72,7 +72,7 @@ nohup sudo ./Helix-Hardware-Monitor &> Helix-Hardware-Monitor.log&
 echo "Registering Helix Modules on startup boot sequence"
 
 echo "cd $(pwd)" >> helix-init.sh
-echo "./start.sh &> /var/logs/helix.log" >> helix-init.sh
+echo "./start.sh &> /var/log/helix.log" >> helix-init.sh
 sudo cp ./helix-init.sh /etc/init.d/
 sudo update-rc.d helix-init.sh defaults
 
