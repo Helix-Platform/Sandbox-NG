@@ -61,6 +61,8 @@ sudo mkdir -p /opt/secrets/ssl_crt
 sudo mkdir -p /opt/secrets/ssl_key
 mkdir -p ~/data/helix
 
+sudo docker network create -d bridge helix
+
 sudo docker-compose down
 
 echo "Starting Helix Sandbox NG Modules"

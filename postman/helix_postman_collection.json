@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "b030648d-73a5-4004-90ba-2e49a5effac4",
+		"_postman_id": "f52e551c-902a-4c2a-bbd9-3d11a1ceb9d3",
 		"name": "Go Helix!",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -657,7 +657,7 @@
 			"name": "CEF Context Broker",
 			"item": [
 				{
-					"name": "Version",
+					"name": "1.Version",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -676,7 +676,7 @@
 					"response": []
 				},
 				{
-					"name": "Update",
+					"name": "4.Update",
 					"request": {
 						"method": "POST",
 						"header": [
@@ -700,7 +700,7 @@
 							"raw": "{\r\n  \"temperature\": {\r\n  \"type\": \"float\",\r\n  \"value\":88\r\n    }\r\n,\r\n  \"humidity\": {\r\n  \"type\": \"float\",\r\n  \"value\": 20\r\n\t}\r\n}\r\n"
 						},
 						"url": {
-							"raw": "http://{{url}}:1026/v2/entities/urn:ngsi-ld:dht:001/attrs",
+							"raw": "http://{{url}}:1026/v2/entities/urn:ngsi-ld:entitie:001/attrs",
 							"protocol": "http",
 							"host": [
 								"{{url}}"
@@ -709,7 +709,7 @@
 							"path": [
 								"v2",
 								"entities",
-								"urn:ngsi-ld:dht:001",
+								"urn:ngsi-ld:entitie:001",
 								"attrs"
 							]
 						}
@@ -717,7 +717,7 @@
 					"response": []
 				},
 				{
-					"name": "Get ",
+					"name": "3.Get ",
 					"request": {
 						"method": "GET",
 						"header": [
@@ -752,7 +752,7 @@
 					"response": []
 				},
 				{
-					"name": "Delete",
+					"name": "7.Delete",
 					"request": {
 						"method": "DELETE",
 						"header": [
@@ -772,7 +772,7 @@
 							"formdata": []
 						},
 						"url": {
-							"raw": "http://{{url}}:1026/v2/entities/urn:ngsi-ld:dht:001",
+							"raw": "http://{{url}}:1026/v2/entities/urn:ngsi-ld:entitie:001",
 							"protocol": "http",
 							"host": [
 								"{{url}}"
@@ -781,7 +781,7 @@
 							"path": [
 								"v2",
 								"entities",
-								"urn:ngsi-ld:dht:001"
+								"urn:ngsi-ld:entitie:001"
 							],
 							"query": [
 								{
@@ -795,7 +795,7 @@
 					"response": []
 				},
 				{
-					"name": "Create",
+					"name": "2.Create",
 					"request": {
 						"method": "POST",
 						"header": [
@@ -806,19 +806,17 @@
 							{
 								"key": "fiware-service",
 								"value": "helixiot",
-								"type": "text",
-								"disabled": true
+								"type": "text"
 							},
 							{
 								"key": "fiware-servicepath",
 								"value": "/",
-								"type": "text",
-								"disabled": true
+								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"id\": \"urn:ngsi-ld:dht:001\",\r\n  \"type\": \"iot\",\r\n  \"temperature\": {\r\n  \"type\": \"float\",\r\n  \"value\":0\r\n    }\r\n,\r\n  \"humidity\": {\r\n  \"type\": \"float\",\r\n  \"value\": 0\r\n\t}\r\n}\r\n\r\n  \r\n"
+							"raw": "{\r\n  \"id\": \"urn:ngsi-ld:entitie:001\",\r\n  \"type\": \"iot\",\r\n  \"temperature\": {\r\n  \"type\": \"float\",\r\n  \"value\":0\r\n    }\r\n,\r\n  \"humidity\": {\r\n  \"type\": \"float\",\r\n  \"value\": 0\r\n\t}\r\n}\r\n\r\n  \r\n"
 						},
 						"url": {
 							"raw": "http://{{url}}:1026/v2/entities",
@@ -837,7 +835,7 @@
 					"response": []
 				},
 				{
-					"name": "Selective_update_temperature",
+					"name": "5.Selective_update_temperature",
 					"request": {
 						"method": "PUT",
 						"header": [
@@ -857,7 +855,7 @@
 							"raw": "95"
 						},
 						"url": {
-							"raw": "http://{{url}}:1026/v2/entities/urn:ngsi-ld:dht:001/attrs/temperature/value",
+							"raw": "http://{{url}}:1026/v2/entities/urn:ngsi-ld:entitie:001/attrs/temperature/value",
 							"protocol": "http",
 							"host": [
 								"{{url}}"
@@ -866,7 +864,7 @@
 							"path": [
 								"v2",
 								"entities",
-								"urn:ngsi-ld:dht:001",
+								"urn:ngsi-ld:entitie:001",
 								"attrs",
 								"temperature",
 								"value"
@@ -876,7 +874,7 @@
 					"response": []
 				},
 				{
-					"name": "Selective_update_humidity",
+					"name": "6.Selective_update_humidity",
 					"request": {
 						"method": "PUT",
 						"header": [
@@ -896,7 +894,7 @@
 							"raw": "95"
 						},
 						"url": {
-							"raw": "http://{{url}}:1026/v2/entities/urn:ngsi-ld:dht:001/attrs/humidity/value",
+							"raw": "http://{{url}}:1026/v2/entities/urn:ngsi-ld:entitie:001/attrs/humidity/value",
 							"protocol": "http",
 							"host": [
 								"{{url}}"
@@ -905,7 +903,7 @@
 							"path": [
 								"v2",
 								"entities",
-								"urn:ngsi-ld:dht:001",
+								"urn:ngsi-ld:entitie:001",
 								"attrs",
 								"humidity",
 								"value"
