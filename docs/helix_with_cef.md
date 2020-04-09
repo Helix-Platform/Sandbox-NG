@@ -2,7 +2,7 @@
 
 Click <a href="https://github.com/Helix-Platform/Sandbox-NG/blob/master/postman/helix_postman_collection.json">here</a> to access the Postman collection! 
 
-## Resume
+## About
 
 This tutorial can help you to understand the most popular REST methods used on CEF Context Broker:
 
