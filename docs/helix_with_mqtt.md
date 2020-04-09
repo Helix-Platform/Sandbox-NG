@@ -576,7 +576,7 @@ curl -iX PATCH \
 
 ## Reference
 
-This tutorial is adapted from [Fiware Foundation](https://github.com/FIWARE/tutorials.IoT-over-MQTT)
+This tutorial was adapted from the [Fiware Foundation](https://github.com/FIWARE/tutorials.IoT-over-MQTT)
 
 
 #### © Helix Platform 2020, All rights reserved.
