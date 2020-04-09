@@ -1,6 +1,6 @@
-## Postman Collection with all messages from this tutorial
+## CEF Context Broker Tutorial for Helix Sandbox
 
-Click [here](https://github.com/Helix-Platform/Sandbox-NG/blob/master/postman/gohelix_postman_collection.json)
+Click [here] to get a postman collection (https://github.com/Helix-Platform/Sandbox-NG/blob/master/postman/gohelix_postman_collection.json)
 
 ## Resume
 
@@ -63,7 +63,7 @@ curl --location --request POST 'http://143.107.145.22:1026/v2/entities' \
 The response will look similar to the following:
 
 ```status 201
-Created
+201 - Created
 ```
 
 #### :three: Verify the entitie:
@@ -121,7 +121,7 @@ curl --location --request POST 'http://143.107.145.22:1026/v2/entities/urn:ngsi-
 The response will look similar to the following:
 
 ```status 204
-No Content
+204 - No Content
 ```
 
 #### :five: Selective Update attribute = temperature:
@@ -137,7 +137,7 @@ curl --location --request PUT 'http://143.107.145.22:1026/v2/entities/urn:ngsi-l
 The response will look similar to the following:
 
 ```status 204
-No Content
+204 - No Content
 ```
 
 #### :six: Selective Update attribute = humidity:
@@ -153,7 +153,7 @@ curl --location --request PUT 'http://143.107.145.22:1026/v2/entities/urn:ngsi-l
 The response will look similar to the following:
 
 ```status 204
-No Content
+204 - No Content
 ```
 
 #### :seven: Delete the entitie:
@@ -167,5 +167,5 @@ curl --location --request DELETE 'http://143.107.145.22:1026/v2/entities/urn:ngs
 The response will look similar to the following:
 
 ```status 204
-No Content
+204 - No Content
 ```
