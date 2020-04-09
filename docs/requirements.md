@@ -17,6 +17,7 @@ Port         Transport             Protocol
 22443           TCP            Helix Hardware Monitor
 1026            TCP            CEF Context Broker 
 27000           TCP            MongoDB 
+5050            TCP            Cygnus
 1883            TCP            Eclipse-Mosquitto
 4041            TCP            IoT Agent MQTT 
 ```
