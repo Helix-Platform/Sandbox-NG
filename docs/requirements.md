@@ -13,6 +13,8 @@ Port         Transport             Protocol
 
 22              TCP            SSH 
 5000            TCP            Helix Web Interface
+3030            TCP            Helix Orchestrator
+22443           TCP            Helix Hardware Monitor
 1026            TCP            CEF Context Broker 
 27000           TCP            MongoDB 
 1883            TCP            Eclipse-Mosquitto
