@@ -15,7 +15,7 @@ You can check if the IoT Agent is running by making an HTTP request to the expos
 
 ```console
 curl -X GET \
-  'http://<HELIX_IOT_IP>:4041/iot/about'
+  'http://{{url}}:4041/iot/about'
 ```
 
 The response will look similar to the following:
@@ -72,7 +72,7 @@ configuration file, however it has been added here for completeness.
 
 ```console
 curl -iX POST \
-  'http://<HELIX_IOT_IP>:4041/iot/services' \
+  'http://{{url}}:4041/iot/services' \
   -H 'Content-Type: application/json' \
   -H 'fiware-service: helixiot' \
   -H 'fiware-servicepath: /' \
@@ -80,7 +80,7 @@ curl -iX POST \
  "services": [
    {
      "apikey":      "iot",
-     "cbroker":     "http://<HELIX_SANDBOX_IP>:1026",
+     "cbroker":     "http://{{url}}:1026",
      "entity_type": "Thing",
      "resource":    ""
    }
@@ -109,7 +109,7 @@ Three types of measurement attributes can be provisioned:
 
 ```console
 curl -iX POST \
-  'http://<HELIX_IOT_IP>:4041/iot/devices' \
+  'http://{{url}}:4041/iot/devices' \
   -H 'Content-Type: application/json' \
   -H 'fiware-service: helixiot' \
   -H 'fiware-servicepath: /' \
@@ -147,7 +147,7 @@ add the `fiware-service` and `fiware-service-path` headers.
 
 ```console
 curl -X GET \
-  'http://<HELIX_SANDBOX_IP>:1026/v2/entities/urn:ngsi-ld:Motion:001?type=Motion' \
+  'http://{{url}}:1026/v2/entities/urn:ngsi-ld:Motion:001?type=Motion' \
   -H 'fiware-service: helixiot' \
   -H 'fiware-servicepath: /'
 ```
@@ -191,7 +191,7 @@ The example below provisions a bell with the `deviceId=bell001`.
 
 ```console
 curl -iX POST \
-  'http://<HELIX_IOT_IP>:4041/iot/devices' \
+  'http://{{url}}:4041/iot/devices' \
   -H 'Content-Type: application/json' \
   -H 'fiware-service: helixiot' \
   -H 'fiware-servicepath: /' \
@@ -221,7 +221,7 @@ command directly as shown:
 
 ```console
 curl -iX POST \
-  'http://<HELIX_IOT_IP>:4041/v1/updateContext' \
+  'http://{{url}}:4041/v1/updateContext' \
   -H 'Content-Type: application/json' \
   -H 'fiware-service: helixiot' \
   -H 'fiware-servicepath: /' \
@@ -273,7 +273,7 @@ The result of the command to ring the bell can be read by querying the entity wi
 
 ```console
 curl -X GET \
-  'http://<HELIX_SANDBOX_IP>:1026/v2/entities/urn:ngsi-ld:Bell:001?type=Bell&options=keyValues' \
+  'http://{{url}}:1026/v2/entities/urn:ngsi-ld:Bell:001?type=Bell&options=keyValues' \
   -H 'fiware-service: helixiot' \
   -H 'fiware-servicepath: /'
 ```
@@ -326,7 +326,7 @@ is listening for commands.
 
 ```console
 curl -iX POST \
-  'http://<HELIX_IOT_IP>:4041/iot/devices' \
+  'http://{{url}}:4041/iot/devices' \
   -H 'Content-Type: application/json' \
   -H 'fiware-service: helixiot' \
   -H 'fiware-servicepath: /' \
@@ -361,7 +361,7 @@ Similarly, a **Smart Lamp** with two commands (`on` and `off`) and two attribute
 
 ```console
 curl -iX POST \
-  'http://<HELIX_IOT_IP>:4041/iot/devices' \
+  'http://{{url}}:4041/iot/devices' \
   -H 'Content-Type: application/json' \
   -H 'fiware-service: helixiot' \
   -H 'fiware-servicepath: /' \
@@ -393,7 +393,7 @@ The full list of provisioned devices can be obtained by making a GET request to 
 
 ```console
 curl -X GET \
-  'http://<HELIX_IOT_IP>:4041/iot/devices' \
+  'http://{{url}}:4041/iot/devices' \
   -H 'fiware-service: helixiot' \
   -H 'fiware-servicepath: /'
 ```
@@ -418,7 +418,7 @@ Therefore this section of registering and invoking commands **duplicates** the i
 ### Registering a Bell Command
 
 The **Bell** entity has been mapped to `id="urn:ngsi-ld:Bell:001"` with an entity `type="Bell"`. To register the command
-we need to inform Orion that the URL `http://<HELIX_SANDBOX_IP>:1026/v1` is able to provide the missing `ring` attribute. This will
+we need to inform Orion that the URL `http://{{url}}:1026/v1` is able to provide the missing `ring` attribute. This will
 then be forwarded on to the IoT Agent. As you see this is an NGSI v1 endpoint and therefore the `legacyForwarding`
 attribute must also be set.
 
@@ -426,7 +426,7 @@ attribute must also be set.
 
 ```console
 curl -iX POST \
-  'http://<HELIX_SANDBOX_IP>:1026/v2/registrations' \
+  'http://{{url}}:1026/v2/registrations' \
   -H 'Content-Type: application/json' \
   -H 'fiware-service: helixiot' \
   -H 'fiware-servicepath: /' \
@@ -441,7 +441,7 @@ curl -iX POST \
     "attrs": ["ring"]
   },
   "provider": {
-    "http": {"url": "http://<HELIX_IOT_IP>:4041"},
+    "http": {"url": "http://{{url}}:4041"},
     "legacyForwarding": true
   }
 }'
@@ -455,7 +455,7 @@ To invoke the `ring` command, the `ring` attribute must be updated in the contex
 
 ```console
 curl -iX PATCH \
-  'http://<HELIX_SANDBOX_IP>:1026/v2/entities/urn:ngsi-ld:Bell:001/attrs' \
+  'http://{{url}}:1026/v2/entities/urn:ngsi-ld:Bell:001/attrs' \
   -H 'Content-Type: application/json' \
   -H 'fiware-service: helixiot' \
   -H 'fiware-servicepath: /' \
@@ -473,7 +473,7 @@ If you are viewing the device monitor page, you can also see the state of the be
 ### Registering Smart Door Commands
 
 The **Smart Door** entity has been mapped to `id="urn:ngsi-ld:Door:001"` with an entity `type="Door"`. To register the
-commands we need to inform Orion that the URL `http://orion:1026/v1` is able to provide the missing attributes. This
+commands we need to inform Orion that the URL `http://{{url}}:1026/v1` is able to provide the missing attributes. This
 will then be forwarded on to the IoT Agent. As you see this is an NGSI v1 endpoint and therefore the `legacyForwarding`
 attribute must also be set.
 
@@ -481,7 +481,7 @@ attribute must also be set.
 
 ```console
 curl -iX POST \
-  'http://<HELIX_SANDBOX_IP>:1026/v2/registrations' \
+  'http://{{url}}:1026/v2/registrations' \
   -H 'Content-Type: application/json' \
   -H 'fiware-service: helixiot' \
   -H 'fiware-servicepath: /' \
@@ -496,7 +496,7 @@ curl -iX POST \
     "attrs": [ "lock", "unlock", "open", "close"]
   },
   "provider": {
-    "http": {"url": "http://<HELIX_IOT_IP>:4041"},
+    "http": {"url": "http://{{url}}:4041"},
     "legacyForwarding": true
   }
 }'
@@ -510,7 +510,7 @@ To invoke the `open` command, the `open` attribute must be updated in the contex
 
 ```console
 curl -iX PATCH \
-  'http://<HELIX_SANDBOX_IP>:1026/v2/entities/urn:ngsi-ld:Lamp:001/attrs' \
+  'http://{{url}}:1026/v2/entities/urn:ngsi-ld:Lamp:001/attrs' \
   -H 'Content-Type: application/json' \
   -H 'fiware-service: helixiot' \
   -H 'fiware-servicepath: /' \
@@ -533,7 +533,7 @@ attribute must also be set.
 
 ```console
 curl -iX POST \
-  'http://<HELIX_SANDBOX_IP>:1026/v2/registrations' \
+  'http://{{url}}:1026/v2/registrations' \
   -H 'Content-Type: application/json' \
   -H 'fiware-service: helixiot' \
   -H 'fiware-servicepath: /' \
@@ -548,7 +548,7 @@ curl -iX POST \
     "attrs": [ "on", "off" ]
   },
   "provider": {
-    "http": {"url": "http://<HELIX_IOT_IP>:4041"},
+    "http": {"url": "http://{{url}}:4041"},
     "legacyForwarding": true
   }
 }'
@@ -562,7 +562,7 @@ To switch on the **Smart Lamp**, the `on` attribute must be updated in the conte
 
 ```console
 curl -iX PATCH \
-  'http://<HELIX_SANBOX_IP>:1026/v2/entities/urn:ngsi-ld:Lamp:001/attrs' \
+  'http://{{url}}:1026/v2/entities/urn:ngsi-ld:Lamp:001/attrs' \
   -H 'Content-Type: application/json' \
   -H 'fiware-service: helixiot' \
   -H 'fiware-servicepath: /' \
