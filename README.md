@@ -61,8 +61,6 @@ We crossed Jupiter's orbit!
    
    <a href="docs/helix_with_mqtt.md">MQTT Tutorial for Helix Sandbox</a> 
    
-   <a href="postman/gohelix_postman_collection.json">Postman Collection for CEF Context Broker and MQTT</a>
-   
    <a href="https://play.google.com/store/apps/details?id=snr.lab.iotmqttpanel.prod">App IoT MQTT Panel for Android</a>
   
    <a href="https://fiware-orion.readthedocs.io/en/master/index.html">FIWARE CEF Context Broker</a>
