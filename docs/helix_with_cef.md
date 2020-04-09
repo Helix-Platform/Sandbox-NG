@@ -1,12 +1,12 @@
 ## CEF Context Broker Tutorial for Helix Sandbox
 
-Click [here] to get a postman collection (https://github.com/Helix-Platform/Sandbox-NG/blob/master/postman/gohelix_postman_collection.json)
+Click <a href="https://github.com/Helix-Platform/Sandbox-NG/blob/master/postman/gohelix_postman_collection.json">here</a> to access the Postman collection! 
 
 ## Resume
 
 This tutorial can help you to understand the most popular REST methods used on CEF Context Broker:
 
-#### :one: Version:
+#### :one: Get Version:
 
 ```console
 curl --location --request GET 'http://{{url}}:1026/version'
@@ -29,14 +29,14 @@ The response will look similar to the following:
 }
 ```
 
-### Provisioning a Sensor
+### Provisioning a entitie (temperature and humidity sensor) 
 
 It is common good practice to use URNs following the NGSI-LD
 [specification](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.01.01_60/gs_CIM009v010101p.pdf) when creating
 entities. Furthermore it is easier to understand meaningful names when defining data attributes. These mappings can be
 defined by provisioning a device individually.
 
-#### :two: Create an entitie:
+#### :two: Creating an entitie:
 
 ```console
 curl --location --request POST 'http://143.107.145.22:1026/v2/entities' \
@@ -66,7 +66,7 @@ The response will look similar to the following:
 201 - Created
 ```
 
-#### :three: Verify the entitie:
+#### :three: Viewing information:
 
 ```console
 curl --location --request GET 'http://143.107.145.22:1026/v2/entities' \
@@ -96,7 +96,7 @@ The response will look similar to the following:
 ]
 ```
 
-#### :four: Update attributes:
+#### :four: Updating attributes:
 
 ```console
 curl --location --request POST 'http://143.107.145.22:1026/v2/entities/urn:ngsi-ld:entitie:001/attrs' \
@@ -124,7 +124,7 @@ The response will look similar to the following:
 204 - No Content
 ```
 
-#### :five: Selective Update attribute = temperature:
+#### :five: Updating attributes selectively (attribute = temperature):
 
 ```console
 curl --location --request PUT 'http://143.107.145.22:1026/v2/entities/urn:ngsi-ld:entitie:001/attrs/temperature/value' \
@@ -140,7 +140,7 @@ The response will look similar to the following:
 204 - No Content
 ```
 
-#### :six: Selective Update attribute = humidity:
+#### :six: Updating attributes selectively (attribute = humidity):
 
 ```console
 curl --location --request PUT 'http://143.107.145.22:1026/v2/entities/urn:ngsi-ld:entitie:001/attrs/humidity/value' \
@@ -156,7 +156,7 @@ The response will look similar to the following:
 204 - No Content
 ```
 
-#### :seven: Delete the entitie:
+#### :seven: Deleting the entitie:
 
 ```console
 curl --location --request DELETE 'http://143.107.145.22:1026/v2/entities/urn:ngsi-ld:entitie:001' \
