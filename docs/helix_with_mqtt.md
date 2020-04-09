@@ -1,4 +1,6 @@
-# Helix IoT MQTT
+## MQTT Tutorial for Helix Sandbox
+
+Click <a href="https://github.com/Helix-Platform/Sandbox-NG/blob/master/postman/helix_postman_collection.json">here</a> to access the Postman collection! 
 
 ## About
 
