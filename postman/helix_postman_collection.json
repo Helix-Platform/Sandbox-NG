@@ -700,7 +700,7 @@
 							"raw": "{\r\n  \"temperature\": {\r\n  \"type\": \"float\",\r\n  \"value\":88\r\n    }\r\n,\r\n  \"humidity\": {\r\n  \"type\": \"float\",\r\n  \"value\": 20\r\n\t}\r\n}\r\n"
 						},
 						"url": {
-							"raw": "http://{{url}}:1026/v2/entities/urn:ngsi-ld:entitie:001/attrs",
+							"raw": "http://{{url}}:1026/v2/entities/urn:ngsi-ld:entity:001/attrs",
 							"protocol": "http",
 							"host": [
 								"{{url}}"
@@ -772,7 +772,7 @@
 							"formdata": []
 						},
 						"url": {
-							"raw": "http://{{url}}:1026/v2/entities/urn:ngsi-ld:entitie:001",
+							"raw": "http://{{url}}:1026/v2/entities/urn:ngsi-ld:entity:001",
 							"protocol": "http",
 							"host": [
 								"{{url}}"
@@ -816,7 +816,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"id\": \"urn:ngsi-ld:entitie:001\",\r\n  \"type\": \"iot\",\r\n  \"temperature\": {\r\n  \"type\": \"float\",\r\n  \"value\":0\r\n    }\r\n,\r\n  \"humidity\": {\r\n  \"type\": \"float\",\r\n  \"value\": 0\r\n\t}\r\n}\r\n\r\n  \r\n"
+							"raw": "{\r\n  \"id\": \"urn:ngsi-ld:entity:001\",\r\n  \"type\": \"iot\",\r\n  \"temperature\": {\r\n  \"type\": \"float\",\r\n  \"value\":0\r\n    }\r\n,\r\n  \"humidity\": {\r\n  \"type\": \"float\",\r\n  \"value\": 0\r\n\t}\r\n}\r\n\r\n  \r\n"
 						},
 						"url": {
 							"raw": "http://{{url}}:1026/v2/entities",
@@ -855,7 +855,7 @@
 							"raw": "95"
 						},
 						"url": {
-							"raw": "http://{{url}}:1026/v2/entities/urn:ngsi-ld:entitie:001/attrs/temperature/value",
+							"raw": "http://{{url}}:1026/v2/entities/urn:ngsi-ld:entity:001/attrs/temperature/value",
 							"protocol": "http",
 							"host": [
 								"{{url}}"
@@ -894,7 +894,7 @@
 							"raw": "95"
 						},
 						"url": {
-							"raw": "http://{{url}}:1026/v2/entities/urn:ngsi-ld:entitie:001/attrs/humidity/value",
+							"raw": "http://{{url}}:1026/v2/entities/urn:ngsi-ld:entity:001/attrs/humidity/value",
 							"protocol": "http",
 							"host": [
 								"{{url}}"
