@@ -709,7 +709,7 @@
 							"path": [
 								"v2",
 								"entities",
-								"urn:ngsi-ld:entitie:001",
+								"urn:ngsi-ld:entity:001",
 								"attrs"
 							]
 						}
@@ -781,7 +781,7 @@
 							"path": [
 								"v2",
 								"entities",
-								"urn:ngsi-ld:entitie:001"
+								"urn:ngsi-ld:entity:001"
 							],
 							"query": [
 								{
@@ -864,7 +864,7 @@
 							"path": [
 								"v2",
 								"entities",
-								"urn:ngsi-ld:entitie:001",
+								"urn:ngsi-ld:entity:001",
 								"attrs",
 								"temperature",
 								"value"
@@ -903,7 +903,7 @@
 							"path": [
 								"v2",
 								"entities",
-								"urn:ngsi-ld:entitie:001",
+								"urn:ngsi-ld:entity:001",
 								"attrs",
 								"humidity",
 								"value"
