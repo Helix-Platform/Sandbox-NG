@@ -3,21 +3,17 @@ Helix Sandbox Next Generation
 
 ## About
 
-Helix Sandbox is a free back-end platform with a lightweight approach to IoT integration geared towards developing applications for smart environments, presenting a multi-cloud approach that can be executed in any CSP (Cloud Service Providers), hypervisor or bare-metal. 
+The Helix Sandbox NG (Next Generation) is a back-end platform for prototyping IoT applications and smart environments certified by the FIWARE Foundation in 2018. Introducing an intuitive and easy-to-use interface, a simplified installation process that performs the rapid orchestration of the main Generic Enablers and empowers integration and interoperability with the largest number of IoT devices and technologies.
 
-Our goals:
+Designed to fasten the development of PoCs (Proof of Concept), MVPs (Minimum Viable Product), accelerate IoT learning by undergraduate and graduate students, enhance scientific research and experimental applications in the areas of Smart Cities, Industry 4.0, agrifood, logistics, ports, retail, home, health and content with minimal cost and computational resources. The Sandbox is free to use for educational propose and grants 90 days of free use for commercial applications. 
 
-Innovative microservice architecture, generic enablers orchestration, agnostic cloud service provider, agnostic hypervisors, faster to deploy a wide variety of IoT applications, easier web interface and based on Fiware generic enablers.
+The lightweight approach based on microservices is capable of run with low investment in any CSP (Cloud Service Providers), hypervisor or on your own machine. The architecture integrates the new generation of the powerful CEF Context Broker, which enables a new generation of applications for intelligent environments, exploring context information on a large scale and in real-time, with an emphasis on interoperability based on the NGSI-LD API defined by ETSI (European Network of Telecommunications Standards) and that integrates the CEF (Connecting Europe Facility).
 
-Helix simplify the process of installation and configuration through an intuitive graphical interface that enables orchestration of their components.
+The platform natively supports HTTP (Hypertext Transfer Protocol) and MQTT (Message Queue Telemetry Transport) protocols through the embedded integration of Eclipse-Mosquitto, suitable for use with low power devices.
 
-The integrated architecture is based on the next generation of GE, which enables a new generation of applications for intelligent environments that exploit large-scale and real-time context information in CIM (Context Information Management) based on the NGSI-LD API defined by ETSI (European Network of Telecommunications Standards) as well as for the CEF (Connecting Europe Facility).
+The Helix platform provides Cloud Service in a pay-as-you-go payment and a Bespoke platform deployed over Nebula which integrates advanced security features, databases like PostgreSQL, MySQL, MongoDB or AWS DynamoDB, as well as BigData platforms like Hadoop, Storm, Spark and Flink, in addition to interoperating with IoT protocols such as CoAP, LWM2M, OPC-UA, LoRaWAN and SigFox.
 
-Designed for PoCs (Proofs of Concept), Startups MVPs (Minimal Viable Product), Students, Scientific Researches, and Experimental Applications using a few computational resources.
-
-Helix Sandbox NG supports HTTP (Hypertext Transfer Protocol) and MQTT (Message Queue Telemetry Transport) the most popular IoT Broker. Mosquitto is lightweight and is suitable for use on all devices from low power single board computers to full servers.
-
-The MQTT protocol provides a lightweight method of carrying out messaging using a publish/subscribe model. This makes it suitable for Internet of Things messaging such as with low power sensors or mobile devices such as phones, embedded computers or microcontrollers.
+Helix Sandbox NG is currently in use as Fiware Lab São Paulo's main image.
 
 Give your smart environment application the ability to analyse, share, manage and use in real time at right time!
 
