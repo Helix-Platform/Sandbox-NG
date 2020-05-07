@@ -45,7 +45,7 @@ curl --location --request POST 'http://{{url}}:1026/v2/entities' \
 --header 'fiware-servicepath: /' \
 --header 'Content-Type: text/plain' \
 --data-raw '{
-  "id": "urn:ngsi-ld:entitie:001",
+  "id": "urn:ngsi-ld:entity:001",
   "type": "iot",
   "temperature": {
   "type": "float",
@@ -80,7 +80,7 @@ The response will look similar to the following:
 ```json
 [
     {
-        "id": "urn:ngsi-ld:entitie:001",
+        "id": "urn:ngsi-ld:entity:001",
         "type": "iot",
         "humidity": {
             "type": "float",
@@ -99,7 +99,7 @@ The response will look similar to the following:
 #### :four: Updating attributes:
 
 ```console
-curl --location --request POST 'http://{{url}}:1026/v2/entities/urn:ngsi-ld:entitie:001/attrs' \
+curl --location --request POST 'http://{{url}}:1026/v2/entities/urn:ngsi-ld:entity:001/attrs' \
 --header 'Content-Type: application/json' \
 --header 'fiware-service: helixiot' \
 --header 'fiware-servicepath: /' \
@@ -127,7 +127,7 @@ The response will look similar to the following:
 #### :five: Updating attributes selectively (attribute = temperature):
 
 ```console
-curl --location --request PUT 'http://{{url}}:1026/v2/entities/urn:ngsi-ld:entitie:001/attrs/temperature/value' \
+curl --location --request PUT 'http://{{url}}:1026/v2/entities/urn:ngsi-ld:entity:001/attrs/temperature/value' \
 --header 'fiware-service: helixiot' \
 --header 'fiware-servicepath: /' \
 --header 'Content-Type: text/plain' \
@@ -143,7 +143,7 @@ The response will look similar to the following:
 #### :six: Updating attributes selectively (attribute = humidity):
 
 ```console
-curl --location --request PUT 'http://{{url}}:1026/v2/entities/urn:ngsi-ld:entitie:001/attrs/humidity/value' \
+curl --location --request PUT 'http://{{url}}:1026/v2/entities/urn:ngsi-ld:entity:001/attrs/humidity/value' \
 --header 'fiware-service: helixiot' \
 --header 'fiware-servicepath: /' \
 --header 'Content-Type: text/plain' \
@@ -159,7 +159,7 @@ The response will look similar to the following:
 #### :seven: Deleting the entitie:
 
 ```console
-curl --location --request DELETE 'http://{{url}}:1026/v2/entities/urn:ngsi-ld:entitie:001' \
+curl --location --request DELETE 'http://{{url}}:1026/v2/entities/urn:ngsi-ld:entity:001' \
 --header 'fiware-service: helixiot' \
 --header 'fiware-servicepath: /'
 ```
