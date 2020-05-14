@@ -63,8 +63,8 @@ We crossed Jupiter's orbit!
    
    <a href="https://fiware-datamodels.readthedocs.io/en/latest/index.html">FIWARE Data Models</a>
    
-   <a href="https://documenter.getpostman.com/view/513743/fiware-entity-relationships/RVu8gSCh?version=latest">FIWARE Entity Relationships</a> 
-   
+   <a href="https://documenter.getpostman.com/view/513743/fiware-entity-relationships/RVu8gSCh?version=latest">FIWARE Entity Relationships</a>
+      
    <a href="https://github.com/Helix-Platform/tips/blob/master/README.md">Integrating NodeMCU with Helix Sandbox NG</a> 
    
    <a href="docs/helix_with_python.md">Management Context Information in Python</a>
