@@ -47,23 +47,30 @@ We crossed Jupiter's orbit!
    
    <a href="docs/create_mqtt_broker.md">Setup IoT agent MQTT and Eclipse-Mosquitto</a>
    
-   <a href="docs/helix_with_cef.md">CEF Context Broker Tutorial for Helix Sandbox</a>
-   
-   <a href="docs/helix_with_mqtt.md">MQTT Tutorial for Helix Sandbox</a> 
-   
    <a href= "docs/change_password.md">Change password</a>
          
 ## Additional Resources
 
+   <a href="docs/helix_with_cef.md">CEF Context Broker Tutorial for Helix Sandbox</a>
+   
+   <a href="docs/helix_with_mqtt.md">MQTT Tutorial for Helix Sandbox</a> 
+   
    <a href="https://play.google.com/store/apps/details?id=br.net.smit.helix">App Helix for Android</a> developed by <a href="http://www.smit.net.br">SMIT</a>
    
    <a href="https://play.google.com/store/apps/details?id=snr.lab.iotmqttpanel.prod">App IoT MQTT Panel for Android</a>
   
    <a href="https://fiware-orion.readthedocs.io/en/master/index.html">FIWARE CEF Context Broker</a>
    
-   <a href="https://fiware-datamodels.readthedocs.io/en/latest/index.html">FIWARE Data Models</a>
+   <a href="https://github.com/smart-data-models">FIWARE Data Models</a>
    
-   <a href="https://documenter.getpostman.com/view/513743/fiware-entity-relationships/RVu8gSCh?version=latest">FIWARE Entity Relationships</a> 
+   <a href="https://documenter.getpostman.com/view/513743/fiware-entity-relationships/RVu8gSCh?version=latest">FIWARE Entity Relationships</a>
+      
+   <a href="http://telefonicaid.github.io/fiware-orion/api/v2/stable/">FIWARE-NGSI v2 Specification</a>   
+  
+   <a href="https://github.com/Helix-Platform/tips/blob/master/README.md">Integrating NodeMCU with Helix Sandbox NG</a> 
+   
+   <a href="docs/helix_with_python.md">Management Context Information in Python</a>
+   
 
 #### © Helix Platform 2020, All rights reserved.
 <a href="https://gethelix.org">Helix</a> for a better world! 
