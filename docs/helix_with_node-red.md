@@ -1,4 +1,4 @@
-## Running Ubuntu Server
+## Running Node-Red on Ubuntu Server
 
 This guide takes you through the steps to get Node-RED running on an Ubuntu Server 18.04.4 LTS Machine instance.
 
