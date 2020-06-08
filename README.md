@@ -65,7 +65,9 @@ We crossed Jupiter's orbit!
    
    <a href="https://documenter.getpostman.com/view/513743/fiware-entity-relationships/RVu8gSCh?version=latest">FIWARE Entity Relationships</a>
       
-   <a href="http://telefonicaid.github.io/fiware-orion/api/v2/stable/">FIWARE-NGSI v2 Specification</a>   
+   <a href="http://telefonicaid.github.io/fiware-orion/api/v2/stable/">FIWARE-NGSI v2 Specification</a>  
+   
+   <a href="docs/helix_with_node-red.md">Integrating Helix Sandbox NG with Node-Red</a> 
   
    <a href="https://github.com/Helix-Platform/tips/blob/master/README.md">Integrating NodeMCU with Helix Sandbox NG</a> 
    
