@@ -4,22 +4,20 @@ This guide takes you through the steps to get Node-RED running on an Ubuntu Serv
 
 ### Create the base image
 
-    Log in to your Cloud Service Provider (CSP)
+   Log in to your Cloud Service Provider (CSP)
 
-    Click to add a New … Virtual Machine
+   Click to add a New … Virtual Machine
 
-    In the list of Virtual Machines, select Ubuntu Server, then click ‘Create’
+   In the list of Virtual Machines, select Ubuntu Server, then click ‘Create’
 
-    Give your machine a name, the username you want to use and the authentication details you want to use to access the instance
-
-    Choose the Size of your instance. Remember that node.js is single-threaded so there’s no benefit to picking a size with multiple cores for a simple node-red instance. A1 Basic is a good starting point
-    On the ‘Settings’ step, click on the ‘Network security group’ option. Add a new ‘Inbound rule’ with the options set as:
-        Name: node-red
-        Protocol: TCP
-        Destination port range: 1880
-    Click ‘Ok’ on the Settings page, check the Summary then click ‘Ok’ to deploy the new instance
-
-After a couple of minutes your instance will be running. In the console you can find your instance’s IP address.
+   Give your machine a name, the username you want to use and the authentication details you want to use to access
+   the instance.
+   Choose the Size of your instance. Remember that node.js is single-threaded so there’s no benefit to picking a size with
+   multiple cores for a simple node-red instance.
+   Add a new ‘Inbound rule’ with the options set as:
+       Name: node-red
+       Protocol: TCP
+       Destination port range: 1880
 
 ### Setup Node-RED
 
