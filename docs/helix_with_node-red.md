@@ -1,8 +1,8 @@
-Running Ubuntu Server
+## Running Ubuntu Server
 
 This guide takes you through the steps to get Node-RED running on an Ubuntu Server 18.04.4 LTS Machine instance.
 
-Create the base image
+### Create the base image
 
     Log in to your Cloud Service Provider (CSP)
 
@@ -19,8 +19,9 @@ Create the base image
         Destination port range: 1880
     Click ‘Ok’ on the Settings page, check the Summary then click ‘Ok’ to deploy the new instance
 
-After a couple of minutes your instance will be running. In the console you can find your instance’s IP address
-Setup Node-RED
+After a couple of minutes your instance will be running. In the console you can find your instance’s IP address.
+
+### Setup Node-RED
 
 The next task is to log into the instance then install node.js and Node-RED.
 
@@ -28,19 +29,21 @@ Log into your instance using the authentication details you specified in the pre
 
 Once logged in you need to install node.js and Node-RED
 
+```
    curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
    sudo apt-get install -y nodejs build-essential
    sudo npm install -g --unsafe-perm node-red
+```
 
 At this point you can test your instance by running node-red. Note: you may get some errors regarding the Serial node - that’s to be expected and can be ignored.
 
 Once started, you can access the editor at http://<your-instance-ip>:1880/.
 
 To get Node-RED to start automatically whenever your instance is restarted, you can use pm2:
-
+```
    sudo npm install -g --unsafe-perm pm2
    pm2 start `which node-red` -- -v
    pm2 save
    pm2 startup
-
+```
 Note: this final command will prompt you to run a further command - make sure you do as it says.
