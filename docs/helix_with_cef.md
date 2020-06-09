@@ -102,7 +102,6 @@ curl --location --request POST 'http://{{url}}:1026/v2/entities/urn:ngsi-ld:enti
 --header 'Content-Type: application/json' \
 --header 'fiware-service: helixiot' \
 --header 'fiware-servicepath: /' \
---header 'Content-Type: text/plain' \
 --data-raw '{
   "temperature": {
   "type": "float",
