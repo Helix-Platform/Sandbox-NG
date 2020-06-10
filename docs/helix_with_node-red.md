@@ -59,3 +59,5 @@ Import the <a href="https://github.com/Helix-Platform/Sandbox-NG/blob/master/nod
 You can use your NodeMCU or create an entity in CEF Context Broker using this Postman <a href="https://github.com/Helix-Platform/Sandbox-NG/blob/master/postman/helix_with_node-red_postman_collection.json">collection</a>.
 
 Enjoy your dashboard!
+#### © Helix Platform 2020, All rights reserved.
+<a href="https://gethelix.org">Helix</a> for a better world! 
