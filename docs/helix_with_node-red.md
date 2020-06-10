@@ -41,7 +41,7 @@ Once logged in you need to install node.js and Node-RED
 
 At this point you can test your instance by running node-red. Note: you may get some errors regarding the Serial node - that’s to be expected and can be ignored.
 
-Once started, you can access the editor at http://your-instance-ip:1880/.
+Once started, you can access the editor at http://<Your-Instance-IP>:1880
 
 To get Node-RED to start automatically whenever your instance is restarted, you can use pm2:
 ```
