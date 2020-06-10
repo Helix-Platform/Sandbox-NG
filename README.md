@@ -41,19 +41,19 @@ We crossed Jupiter's orbit!
 
 ## Tutorials
 
-   <a href="docs/dashboard.md">First access</a>
+   <a href="docs/dashboard.md">Helix First access</a>
    
-   <a href="docs/create_cef_context_broker.md">Setup CEF Context Broker</a>
+   <a href="docs/create_cef_context_broker.md">CEF Context Broker - Setup</a>
    
-   <a href="docs/create_mqtt_broker.md">Setup IoT agent MQTT and Eclipse-Mosquitto</a>
+   <a href="docs/create_mqtt_broker.md">Eclipse-Mosquitto - Setup</a>
    
-   <a href= "docs/change_password.md">Change password</a>
+   <a href= "docs/change_password.md">Change your password</a>
          
 ## Additional Resources
 
-   <a href="docs/helix_with_cef.md">NGSI smart devices</a>
+   <a href="docs/helix_with_cef.md">Creating a NGSI smart devices</a>
    
-   <a href="docs/helix_with_mqtt.md">MQTT smart devices</a> 
+   <a href="docs/helix_with_mqtt.md">Creating a MQTT smart devices</a> 
    
    <a href="https://play.google.com/store/apps/details?id=br.net.smit.helix">Helix app for Android</a> developed by <a href="http://www.smit.net.br">SMIT</a>
    
