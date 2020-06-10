@@ -816,7 +816,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"id\": \"urn:ngsi-ld:entity:001\",\r\n  \"type\": \"iot\",\r\n  \"temperature\": {\r\n  \"type\": \"float\",\r\n  \"value\":0\r\n    }\r\n,\r\n  \"humidity\": {\r\n  \"type\": \"float\",\r\n  \"value\": 0\r\n\t}\r\n}\r\n\r\n  \r\n"
+							"raw": "{\r\n  \"id\": \"urn:ngsi-ld:entity:001\",\r\n  \"type\": \"iot\",\r\n  \"temperature\": {\r\n  \"type\": \"float\",\r\n  \"value\": 0\r\n    }\r\n,\r\n  \"humidity\": {\r\n  \"type\": \"float\",\r\n  \"value\": 0\r\n\t}\r\n}\r\n\r\n  \r\n"
 						},
 						"url": {
 							"raw": "http://{{url}}:1026/v2/entities",
