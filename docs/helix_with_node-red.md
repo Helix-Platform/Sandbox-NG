@@ -58,13 +58,9 @@ Note: this final command will prompt you to run a further command - make sure yo
 
 ### Importing the Weather Monitoring Flow
 
-Click <a href="https://github.com/Helix-Platform/Sandbox-NG/blob/master/node_red_flow/weather_monitoring.json">here</a> to access the Node-RED Flow! 
+Import this <a href="https://github.com/Helix-Platform/Sandbox-NG/blob/master/node_red_flow/weather_monitoring.json">file</a> into Node-RED, configure Helix's IP address and run the deployment to create a subscription in CEF Context Broker.
 
-Import this file into Node-RED, configure Helix's IP address and perform the deployment. After this procedure, Node-RED will subscribe to CEF Context Broker.
-
-Click <a href="https://github.com/Helix-Platform/Sandbox-NG/blob/master/postman/helix_with_node-red_postman_collection.json">here</a> to access the Postman collection! 
-
-Use your NodeMCU or create an entity and update the attributes in CEF Context Broker using a Postman collection.
+You can use your NodeMCU or create an entity in CEF Context Broker using this Postman <a href="https://github.com/Helix-Platform/Sandbox-NG/blob/master/postman/helix_with_node-red_postman_collection.json">collection</a>.
 
 Enjoy your dashboard!
 
