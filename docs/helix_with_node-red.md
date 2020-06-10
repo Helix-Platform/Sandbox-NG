@@ -1,4 +1,4 @@
-## Helix Sandbox & Node-RED
+## Dashboard with Node-RED
 
 ### About
 
