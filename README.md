@@ -69,7 +69,7 @@ We crossed Jupiter's orbit!
    
    <a href="docs/helix_with_node-red.md">Dashboard with Node-RED</a> - New
   
-   <a href="https://github.com/Helix-Platform/tips/blob/master/README.md"> NodeMCU to Helix</a> - New
+   <a href="docs/helix_with_nodemcu.md"> NodeMCU to Helix</a> - New
    
    <a href="docs/helix_with_python.md">Python code examples</a> - New
    
