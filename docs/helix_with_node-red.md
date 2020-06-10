@@ -1,14 +1,12 @@
 ## Node-RED for Helix Sandbox
 
-The how-to will help you install Node-RED on the server and build your first dashboard for monitoring the temperature and humidity parameters sent by NodeMCU or through REST messages via Postman or Curl.
+## About
+
+This how-to can help you create a panel to view the temperature and humidity information transmitted by your NodeMCU to the Helix Sandbox and also details the installation of Node-RED on the server.
 
 ![](../images/weather_monitoring.png)
 
 Good luck!
-
-## About
-
-This tutorial can help you to create a simple dashboard using Node-RED:
 
 ## Running Node-RED on Ubuntu Server
 
