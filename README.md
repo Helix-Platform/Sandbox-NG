@@ -61,17 +61,17 @@ We crossed Jupiter's orbit!
   
    <a href="https://fiware-orion.readthedocs.io/en/master/index.html">FIWARE CEF Context Broker</a>
    
-   <a href="https://github.com/smart-data-models">FIWARE Data Models</a>
+   <a href="https://github.com/smart-data-models">FIWARE Data Models</a> 
    
-   <a href="https://documenter.getpostman.com/view/513743/fiware-entity-relationships/RVu8gSCh?version=latest">FIWARE Entity Relationships</a>
+   <a href="https://documenter.getpostman.com/view/513743/fiware-entity-relationships/RVu8gSCh?version=latest">FIWARE Entity Relationships</a> New
       
    <a href="http://telefonicaid.github.io/fiware-orion/api/v2/stable/">FIWARE-NGSI v2 Specification</a>  
    
-   <a href="docs/helix_with_node-red.md">Dashboard with Node-RED</a> 
+   <a href="docs/helix_with_node-red.md">Dashboard with Node-RED</a> New
   
-   <a href="https://github.com/Helix-Platform/tips/blob/master/README.md"> NodeMCU to Helix</a> 
+   <a href="https://github.com/Helix-Platform/tips/blob/master/README.md"> NodeMCU to Helix</a> New
    
-   <a href="docs/helix_with_python.md">Context information management in Python</a>
+   <a href="docs/helix_with_python.md">Python code examples</a> New
    
 
 #### © Helix Platform 2020, All rights reserved.
