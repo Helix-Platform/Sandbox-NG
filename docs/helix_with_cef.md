@@ -48,7 +48,7 @@ curl --location --request POST 'http://{{url}}:1026/v2/entities' \
   "type": "iot",
   "temperature": {
   "type": "float",
-  "value":0
+  "value": 0
     }
 ,
   "humidity": {
