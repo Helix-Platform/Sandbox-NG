@@ -1,6 +1,6 @@
 ## Helix Sandbox & Node-RED
 
-## About
+### About
 
 This how-to can help you create a simple dashboard to view the temperature and humidity transmitted by your NodeMCU to the Helix Sandbox and also details the installation of Node-RED on the server.
 
@@ -8,11 +8,7 @@ This how-to can help you create a simple dashboard to view the temperature and h
 
 Good luck!
 
-## Running Node-RED on Ubuntu Server
-
-This guide takes you through the steps to get Node-RED running on an Ubuntu Server 18.04.4 LTS Machine instance.
-
-### Create the base image
+### Create the Ubuntu Server base image
 
    Log in to your Cloud Service Provider (CSP)
 
@@ -63,8 +59,3 @@ Import the <a href="https://github.com/Helix-Platform/Sandbox-NG/blob/master/nod
 You can use your NodeMCU or create an entity in CEF Context Broker using this Postman <a href="https://github.com/Helix-Platform/Sandbox-NG/blob/master/postman/helix_with_node-red_postman_collection.json">collection</a>.
 
 Enjoy your dashboard!
-
-
-
-
-
