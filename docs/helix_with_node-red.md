@@ -1,4 +1,16 @@
-## Running Node-Red on Ubuntu Server
+## Node-RED for Helix Sandbox
+
+The how-to will help you install Node-RED on the server and build your first dashboard for monitoring the temperature and humidity parameters sent by NodeMCU or through REST messages via Postman or Curl.
+
+![](../images/weather_monitoring.png)
+
+Good luck!
+
+## About
+
+This tutorial can help you to create a simple dashboard using Node-RED:
+
+## Running Node-RED on Ubuntu Server
 
 This guide takes you through the steps to get Node-RED running on an Ubuntu Server 18.04.4 LTS Machine instance.
 
@@ -45,3 +57,19 @@ To get Node-RED to start automatically whenever your instance is restarted, you 
    pm2 startup
 ```
 Note: this final command will prompt you to run a further command - make sure you do as it says.
+
+### Importing the Weather Monitoring Flow
+
+Click <a href="https://github.com/Helix-Platform/Sandbox-NG/blob/master/node_red_flow/weather_monitoring.json">here</a> to access the Node-RED Flow! 
+
+Import this file into Node-RED, configure Helix's IP address and perform the deployment. After this procedure, Node-RED will subscribe to CEF Context Broker.
+
+Click <a href="https://github.com/Helix-Platform/Sandbox-NG/blob/master/postman/helix_with_node-red_postman_collection.json">here</a> to access the Postman collection! 
+
+Create the entity and update the attributes in CEF Context Broker using messages from the Postman collection or use your NodeMCU to do this!
+
+
+
+
+
+
