@@ -64,8 +64,9 @@ Import this file into Node-RED, configure Helix's IP address and perform the dep
 
 Click <a href="https://github.com/Helix-Platform/Sandbox-NG/blob/master/postman/helix_with_node-red_postman_collection.json">here</a> to access the Postman collection! 
 
-Create the entity and update the attributes in CEF Context Broker using messages from the Postman collection or use your NodeMCU to do this!
+Use your NodeMCU or create an entity and update the attributes in CEF Context Broker using a Postman collection.
 
+Enjoy your dashboard!
 
 
 
