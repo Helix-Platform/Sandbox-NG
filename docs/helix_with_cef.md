@@ -105,7 +105,7 @@ curl --location --request POST 'http://{{url}}:1026/v2/entities/urn:ngsi-ld:enti
 --data-raw '{
   "temperature": {
   "type": "float",
-  "value":88
+  "value": 88
     }
 ,
   "humidity": {
