@@ -51,11 +51,11 @@ We crossed Jupiter's orbit!
          
 ## Additional Resources
 
-   <a href="docs/helix_with_cef.md">CEF Context Broker Tutorial for Helix Sandbox</a>
+   <a href="docs/helix_with_cef.md">NGSI smart devices</a>
    
-   <a href="docs/helix_with_mqtt.md">MQTT Tutorial for Helix Sandbox</a> 
+   <a href="docs/helix_with_mqtt.md">MQTT smart devices</a> 
    
-   <a href="https://play.google.com/store/apps/details?id=br.net.smit.helix">App Helix for Android</a> developed by <a href="http://www.smit.net.br">SMIT</a>
+   <a href="https://play.google.com/store/apps/details?id=br.net.smit.helix">Helix app for Android</a> developed by <a href="http://www.smit.net.br">SMIT</a>
    
    <a href="https://play.google.com/store/apps/details?id=snr.lab.iotmqttpanel.prod">App IoT MQTT Panel for Android</a>
   
@@ -67,11 +67,11 @@ We crossed Jupiter's orbit!
       
    <a href="http://telefonicaid.github.io/fiware-orion/api/v2/stable/">FIWARE-NGSI v2 Specification</a>  
    
-   <a href="docs/helix_with_node-red.md">Integrating Helix Sandbox NG with Node-Red</a> 
+   <a href="docs/helix_with_node-red.md">Dashboard with Node-RED</a> 
   
-   <a href="https://github.com/Helix-Platform/tips/blob/master/README.md">Integrating NodeMCU with Helix Sandbox NG</a> 
+   <a href="https://github.com/Helix-Platform/tips/blob/master/README.md"> NodeMCU to Helix</a> 
    
-   <a href="docs/helix_with_python.md">Management Context Information in Python</a>
+   <a href="docs/helix_with_python.md">Context information management in Python</a>
    
 
 #### © Helix Platform 2020, All rights reserved.
