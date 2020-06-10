@@ -1,8 +1,8 @@
-## Node-RED for Helix Sandbox
+## Helix Sandbox & Node-RED
 
 ## About
 
-This how-to can help you create a panel to view the temperature and humidity information transmitted by your NodeMCU to the Helix Sandbox and also details the installation of Node-RED on the server.
+This how-to can help you create a simple dashboard to view the temperature and humidity transmitted by your NodeMCU to the Helix Sandbox and also details the installation of Node-RED on the server.
 
 ![](../images/weather_monitoring.png)
 
