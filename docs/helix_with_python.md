@@ -57,3 +57,7 @@ data = response.json()
 value = str(data['value'])
 valued = int(value)
 print (valued)
+
+Enjoy your code examples and explore all Helix features with Python.
+#### © Helix Platform 2020, All rights reserved.
+<a href="https://gethelix.org">Helix</a> for a better world! 
