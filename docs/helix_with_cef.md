@@ -43,13 +43,12 @@ curl --location --request POST 'http://{{url}}:1026/v2/entities' \
 --header 'Content-Type: application/json' \
 --header 'fiware-service: helixiot' \
 --header 'fiware-servicepath: /' \
---header 'Content-Type: text/plain' \
 --data-raw '{
   "id": "urn:ngsi-ld:entity:001",
   "type": "iot",
   "temperature": {
   "type": "float",
-  "value":0
+  "value": 0
     }
 ,
   "humidity": {
@@ -103,11 +102,10 @@ curl --location --request POST 'http://{{url}}:1026/v2/entities/urn:ngsi-ld:enti
 --header 'Content-Type: application/json' \
 --header 'fiware-service: helixiot' \
 --header 'fiware-servicepath: /' \
---header 'Content-Type: text/plain' \
 --data-raw '{
   "temperature": {
   "type": "float",
-  "value":88
+  "value": 88
     }
 ,
   "humidity": {
