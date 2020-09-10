@@ -15,7 +15,6 @@ You can use the Arduino IDE to create the code for your NodeMCU.
 #include <ESP8266HTTPClient.h>
 #include "DHT.h"
 #include <math.h>
-#include <Adafruit_Sensor.h>
 #define DHTTYPE DHT11   
 #define dht_dpin D1
 #define LED_BUILTIN 2
