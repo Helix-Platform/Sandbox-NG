@@ -51,9 +51,9 @@ We crossed Jupiter's orbit!
          
 ## Additional Resources
 
-   <a href="docs/helix_with_cef.md">Creating a NGSI smart devices</a>
+   <a href="docs/helix_with_cef.md">Creating smart devices with NGSI</a>
    
-   <a href="docs/helix_with_mqtt.md">Creating a MQTT smart devices</a> 
+   <a href="docs/helix_with_mqtt.md">Creating smart devices with MQTT</a> 
    
    <a href="https://play.google.com/store/apps/details?id=br.net.smit.helix">Helix app for Android</a> developed by <a href="http://www.smit.net.br">SMIT</a>
    
