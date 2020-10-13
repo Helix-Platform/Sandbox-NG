@@ -4,7 +4,7 @@ Use any local hypervisor like Virtual Box, VMware and KVM or if you need a globa
 
 Minimum server configuration: 1 vCPU, 1GB RAM and 16GB HDD or SSD.
 
-Compatible with most Linux distribution, but Ubuntu Server 18.04.4 LTS has been validated exhaustively for us.
+Compatible with most Linux distribution, but Ubuntu Server 18.04.5 LTS has been validated exhaustively for us.
 
 You need to open all the ports below in the firewall settings at your CSP:
 
