@@ -75,6 +75,8 @@ We crossed Jupiter's orbit!
    
    <a href="docs/helix_with_python.md">Python code examples</a> - New
    
+## Projects
+   
    <a href="https://github.com/matheus-maria/Blockchain">C.A.R.E Blockchain</a> - New
    
 
