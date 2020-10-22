@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "f52e551c-902a-4c2a-bbd9-3d11a1ceb9d3",
+		"_postman_id": "9a6d1fc2-4f60-4ddb-9f04-bf75b44695f0",
 		"name": "Go Helix!",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -109,7 +109,7 @@
 					"response": []
 				},
 				{
-					"name": "4 Verifying sensor",
+					"name": "4 Verifying CEF Context Broker",
 					"request": {
 						"method": "GET",
 						"header": [
@@ -125,7 +125,7 @@
 							}
 						],
 						"url": {
-							"raw": "http://{{url}}:1026/v2/entities/urn:ngsi-ld:Motion:001?type=Motion",
+							"raw": "http://{{url}}:1026/v2/entities/urn:ngsi-ld:Lamp:001",
 							"protocol": "http",
 							"host": [
 								"{{url}}"
@@ -134,13 +134,7 @@
 							"path": [
 								"v2",
 								"entities",
-								"urn:ngsi-ld:Motion:001"
-							],
-							"query": [
-								{
-									"key": "type",
-									"value": "Motion"
-								}
+								"urn:ngsi-ld:Lamp:001"
 							]
 						}
 					},
@@ -383,7 +377,7 @@
 					"response": []
 				},
 				{
-					"name": "11. Enabling Context Broker Commands",
+					"name": "11. Registering Bell Commands",
 					"request": {
 						"method": "POST",
 						"header": [
@@ -405,7 +399,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n  \"description\": \"Bell Commands\",\n  \"dataProvided\": {\n    \"entities\": [\n      {\n        \"id\": \"urn:ngsi-ld:Bell:001\", \"type\": \"Bell\"\n      }\n    ],\n    \"attrs\": [\"ring\"]\n  },\n  \"provider\": {\n    \"http\": {\"url\": \"http://<helixsandbox IP>:4041\"},\n    \"legacyForwarding\": true\n  }\n}"
+							"raw": "{\n  \"description\": \"Bell Commands\",\n  \"dataProvided\": {\n    \"entities\": [\n      {\n        \"id\": \"urn:ngsi-ld:Bell:001\", \"type\": \"Bell\"\n      }\n    ],\n    \"attrs\": [\"ring\"]\n  },\n  \"provider\": {\n    \"http\": {\"url\": \"http://{{url}}:4041\"},\n    \"legacyForwarding\": true\n  }\n}"
 						},
 						"url": {
 							"raw": "http://{{url}}:1026/v2/registrations",
@@ -487,7 +481,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n  \"description\": \"Door Commands\",\n  \"dataProvided\": {\n    \"entities\": [\n      {\n        \"id\": \"urn:ngsi-ld:Door:001\", \"type\": \"Door\"\n      }\n    ],\n    \"attrs\": [ \"lock\", \"unlock\", \"open\", \"close\"]\n  },\n  \"provider\": {\n    \"http\": {\"url\": \"http://<helixsandbox IP>:4041\"},\n    \"legacyForwarding\": true\n  }\n}"
+							"raw": "{\n  \"description\": \"Door Commands\",\n  \"dataProvided\": {\n    \"entities\": [\n      {\n        \"id\": \"urn:ngsi-ld:Door:001\", \"type\": \"Door\"\n      }\n    ],\n    \"attrs\": [ \"lock\", \"unlock\", \"open\", \"close\"]\n  },\n  \"provider\": {\n    \"http\": {\"url\": \"http://{{url}}:4041\"},\n    \"legacyForwarding\": true\n  }\n}"
 						},
 						"url": {
 							"raw": "http://{{url}}:1026/v2/registrations",
@@ -527,7 +521,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"open\": {\r\n      \"type\" : \"command\",\r\n      \"value\" : \"\"\r\n  }\r\n}"
+							"raw": "{\r\n  \"unlock\": {\r\n      \"type\" : \"command\",\r\n      \"value\" : \"\"\r\n  }\r\n}"
 						},
 						"url": {
 							"raw": "http://{{url}}:1026/v2/entities/urn:ngsi-ld:Door:001/attrs",
@@ -569,7 +563,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n  \"description\": \"Lamp Commands\",\n  \"dataProvided\": {\n    \"entities\": [\n      {\n        \"id\": \"urn:ngsi-ld:Lamp:001\",\"type\": \"Lamp\"\n      }\n    ],\n    \"attrs\": [ \"on\", \"off\" ]\n  },\n  \"provider\": {\n    \"http\": {\"url\": \"http://<helixsandbox IP>:4041\"},\n    \"legacyForwarding\": true\n  }\n}"
+							"raw": "{\n  \"description\": \"Lamp Commands\",\n  \"dataProvided\": {\n    \"entities\": [\n      {\n        \"id\": \"urn:ngsi-ld:Lamp:001\",\"type\": \"Lamp\"\n      }\n    ],\n    \"attrs\": [ \"on\", \"off\" ]\n  },\n  \"provider\": {\n    \"http\": {\"url\": \"http://{{url}}:4041\"},\n    \"legacyForwarding\": true\n  }\n}"
 						},
 						"url": {
 							"raw": "http://{{url}}:1026/v2/registrations",
@@ -633,7 +627,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "96f61bb2-04c1-42a0-ab58-339180ab0fa5",
+						"id": "cd756cdd-0d4f-42ae-94db-d3b52e1fbbd2",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -643,7 +637,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "de1eec02-0965-4087-bf43-c7be1de8b6b3",
+						"id": "af1a4c6b-1403-4f32-8e3c-f9f5ab170e6f",
 						"type": "text/javascript",
 						"exec": [
 							""
