@@ -80,5 +80,5 @@ We crossed Jupiter's orbit!
    <a href="https://github.com/matheus-maria/Blockchain">C.A.R.E Blockchain</a> - New
    
 
-#### © Helix Platform 2020, All rights reserved.
+#### © Helix Platform 2021, All rights reserved.
 <a href="https://gethelix.org">Helix</a> for a better world! 
