@@ -173,4 +173,4 @@ The response will look similar to the following:
 This tutorial was adapted from the [Fiware Foundation](https://fiware-orion.readthedocs.io/en/master/)
 
 
-#### © Helix Platform 2020, All rights reserved.
+#### © Helix Platform 2021, All rights reserved.
