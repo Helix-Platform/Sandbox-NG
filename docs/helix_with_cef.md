@@ -29,14 +29,14 @@ The response will look similar to the following:
 }
 ```
 
-### Provisioning a entitie (temperature and humidity sensor) 
+### Provisioning an entity (temperature and humidity sensor) 
 
 It is common good practice to use URNs following the NGSI-LD
 [specification](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.01.01_60/gs_CIM009v010101p.pdf) when creating
 entities. Furthermore it is easier to understand meaningful names when defining data attributes. These mappings can be
 defined by provisioning a device individually.
 
-#### :two: Creating an entitie:
+#### :two: Creating an entity:
 
 ```console
 curl --location --request POST 'http://{{url}}:1026/v2/entities' \
@@ -47,14 +47,13 @@ curl --location --request POST 'http://{{url}}:1026/v2/entities' \
   "id": "urn:ngsi-ld:entity:001",
   "type": "iot",
   "temperature": {
-  "type": "float",
-  "value": 0
-    }
-,
+    "type": "float",
+    "value": 0
+  },
   "humidity": {
-  "type": "float",
-  "value": 0
-	}
+    "type": "float",
+    "value": 0
+  }
 }
 '
 ```
@@ -104,14 +103,13 @@ curl --location --request POST 'http://{{url}}:1026/v2/entities/urn:ngsi-ld:enti
 --header 'fiware-servicepath: /' \
 --data-raw '{
   "temperature": {
-  "type": "float",
-  "value": 88
-    }
-,
+    "type": "float",
+    "value": 88
+  },
   "humidity": {
-  "type": "float",
-  "value": 20
-	}
+    "type": "float",
+    "value": 20
+  }
 }
 '
 ```
@@ -154,7 +152,7 @@ The response will look similar to the following:
 204 - No Content
 ```
 
-#### :seven: Deleting the entitie:
+#### :seven: Deleting the entity:
 
 ```console
 curl --location --request DELETE 'http://{{url}}:1026/v2/entities/urn:ngsi-ld:entity:001' \
@@ -170,7 +168,7 @@ The response will look similar to the following:
 
 ## Reference
 
-This tutorial was adapted from the [Fiware Foundation](https://fiware-orion.readthedocs.io/en/master/)
+This tutorial was adapted from the [Fiware Foundation docs](https://fiware-orion.readthedocs.io/en/master/)
 
 
 #### © Helix Platform 2021, All rights reserved.
