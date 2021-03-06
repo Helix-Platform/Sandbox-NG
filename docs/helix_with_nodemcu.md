@@ -112,7 +112,7 @@ void loop(){
 //plug&play
 void orionCreateEntitie(String entitieName) {
 
-    String bodyRequest = "{\"id\": \"" + entitieName + "\", \"type\": \"sensor\", \"temperature\": { \"value\": \"0\", \"type\": \"integer\"},\"humidity\": { \"value\": \"0\", \"type\": \"integer\"}}";
+    String bodyRequest = "{\"id\": \"" + entitieName + "\", \"type\": \"iot\", \"temperature\": { \"value\": \"0\", \"type\": \"integer\"},\"humidity\": { \"value\": \"0\", \"type\": \"integer\"}}";
     httpRequest("/entities", bodyRequest);
 }
 
