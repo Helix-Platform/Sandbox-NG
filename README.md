@@ -61,7 +61,7 @@ We crossed Jupiter's orbit!
   
    <a href="https://fiware-orion.readthedocs.io/en/master/index.html">FIWARE CEF Context Broker</a>
    
-   <a href="https://github.com/smart-data-models">FIWARE Data Models</a> 
+   <a href="https://smartdatamodels.org/">Smart Data Models</a> - New
    
    <a href="https://github.com/Fiware/tutorials.Subscriptions">FIWARE Subscriptions Tutorial</a> - New
    
