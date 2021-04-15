@@ -6,7 +6,7 @@ Click <a href="https://github.com/Helix-Platform/Sandbox-NG/blob/master/postman/
 
 This tutorial can help you to understand the most popular REST methods used on CEF Context Broker:
 
-#### :one: Get Version:
+#### :one: Get version:
 
 ```console
 curl --location --request GET 'http://{{url}}:1026/version'
@@ -29,14 +29,14 @@ The response will look similar to the following:
 }
 ```
 
-### Provisioning a entitie (temperature and humidity sensor) 
+### Provisioning a entity (temperature and humidity sensor) 
 
 It is common good practice to use URNs following the NGSI-LD
 [specification](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.01.01_60/gs_CIM009v010101p.pdf) when creating
 entities. Furthermore it is easier to understand meaningful names when defining data attributes. These mappings can be
 defined by provisioning a device individually.
 
-#### :two: Creating an entitie:
+#### :two: Creating an entity:
 
 ```console
 curl --location --request POST 'http://{{url}}:1026/v2/entities' \
@@ -154,7 +154,7 @@ The response will look similar to the following:
 204 - No Content
 ```
 
-#### :seven: Deleting the entitie:
+#### :seven: Deleting the entity:
 
 ```console
 curl --location --request DELETE 'http://{{url}}:1026/v2/entities/urn:ngsi-ld:entity:001' \
