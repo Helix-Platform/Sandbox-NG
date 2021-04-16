@@ -1,4 +1,4 @@
-## MQTT Tutorial for Helix Sandbox
+## MQTT Tutorial for Helix Sandbox NG
 
 Click <a href="https://github.com/Helix-Platform/Sandbox-NG/blob/master/postman/helix_postman_collection.json">here</a> to access the Postman collection! 
 
