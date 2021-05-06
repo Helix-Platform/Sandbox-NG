@@ -6,7 +6,7 @@ You can use the Arduino IDE to create the code for your NodeMCU.
 
 #### Electrical Diagram
 
-![](../images/esp32_dht-11.png)
+![](../images/esp_dht-11.PNG)
 
 #### Code
 
