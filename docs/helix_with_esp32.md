@@ -40,9 +40,7 @@ void setup()
     Serial.begin(115200);
     Serial.println("\nBootting...");
     pinMode(LED_BUILTIN, OUTPUT);
-
     dht.begin();
-
     setupWiFi();
 }
 
@@ -96,15 +94,15 @@ void loop()
     }
 
     // Calculation of average values
-    short medianTemperature = totalTemperature / 5;
-    short medianHumidity = totalHumidity / 5;
+    short meeanTemperature = totalTemperature / 5;
+    short meeanHumidity = totalHumidity / 5;
 
-    Serial.println("Median after 5 reads is Humidity: " + String(medianHumidity) + "% - Temperature: " + String(medianTemperature) + "°C");
+    Serial.println("Mean after 5 reads is Humidity: " + String(meanHumidity) + "% - Temperature: " + String(meanTemperature) + "°C");
 
     char msgHumidity[10];
     char msgTemperature[10];
-    sprintf(msgHumidity, "%d", medianHumidity);
-    sprintf(msgTemperature, "%d", medianTemperature);
+    sprintf(msgHumidity, "%d", meanHumidity);
+    sprintf(msgTemperature, "%d", meanTemperature);
 
     // Update
     Serial.println("Updating data in orion...");
