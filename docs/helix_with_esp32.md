@@ -2,7 +2,7 @@
 #### About
 
 The code below automatically creates the sensor in the Helix Sandbox and sends the temperature and humidity from DHT-11 to Helix using the restful message with the POST method. Moreover, this code uses the force update to guarantee the storage persistence on the database. 
-You can use the Arduino IDE to create the code for your NodeMCU.
+You can use the Arduino IDE to create the code for your ESP32.
 
 #### Electrical Diagram
 
@@ -94,8 +94,8 @@ void loop()
     }
 
     // Calculation of average values
-    short meeanTemperature = totalTemperature / 5;
-    short meeanHumidity = totalHumidity / 5;
+    short meanTemperature = totalTemperature / 5;
+    short meanHumidity = totalHumidity / 5;
 
     Serial.println("Mean after 5 reads is Humidity: " + String(meanHumidity) + "% - Temperature: " + String(meanTemperature) + "°C");
 
