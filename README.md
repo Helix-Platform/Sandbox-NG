@@ -59,7 +59,7 @@ We crossed Jupiter's orbit!
    
    <a href="https://play.google.com/store/apps/details?id=snr.lab.iotmqttpanel.prod">App IoT MQTT Panel for Android</a>
   
-   <a href="https://fiware-orion.readthedocs.io/en/master/index.html">FIWARE CEF Context Broker</a>
+   <a href="https://fiware-orion.readthedocs.io/en/master/index.html">Orion Context Broker</a> - New
    
    <a href="https://smartdatamodels.org/">Smart Data Models</a> - New
    
@@ -69,15 +69,18 @@ We crossed Jupiter's orbit!
       
    <a href="http://telefonicaid.github.io/fiware-orion/api/v2/stable/">FIWARE-NGSI v2 Specification</a>  
    
-   <a href="docs/helix_with_node-red.md">Dashboard with Node-RED</a> - New
+   <a href="docs/helix_with_node-red.md">Dashboard with Node-RED</a>
   
-   <a href="docs/helix_with_nodemcu.md"> NodeMCU to Helix</a> - New
+   <a href="docs/helix_with_nodemcu.md"> NodeMCU to Helix</a> 
+   
+   <a href="docs/helix_with_esp32.md"> ESP32 to Helix</a> - New
    
    <a href="docs/helix_with_python.md">Python code examples</a> - New
    
 ## Projects
    
    <a href="https://github.com/matheus-maria/Blockchain">C.A.R.E Blockchain</a> - New
+   <a href="https://github.com/felipe-mcunha/arquitetura-seguranca">Helix with IDM, PEP Proxy and AuthZForce</a> - New
    
 
 #### © Helix Platform 2021, All rights reserved.
