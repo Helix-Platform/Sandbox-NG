@@ -69,9 +69,9 @@ void setup() {
 void loop(){
 
 //reset variables
-  medianTemperature=0;
+  meanTemperature=0;
   totalTemperature=0;
-  medianHumidity=0;
+  meanHumidity=0;
   totalHumidity=0;
 
 //looping for calculating average temperature and humidity
@@ -87,15 +87,15 @@ void loop(){
   };
 
 //calculation of average values
-  medianHumidity = totalHumidity/5;
-  medianTemperature = totalTemperature/5;
+  meanHumidity = totalHumidity/5;
+  meanTemperature = totalTemperature/5;
   
-  Serial.println("Median after 5 reads is Humidity: " + String(medianHumidity) + " Temperature: " + String(medianTemperature));
+  Serial.println("Mean after 5 reads is Humidity: " + String(meanHumidity) + " Temperature: " + String(meanTemperature));
   
   char msgHumidity[10];
   char msgTemperature[10]; 
-  sprintf(msgHumidity,"%d",medianHumidity);
-  sprintf(msgTemperature,"%d",medianTemperature);
+  sprintf(msgHumidity,"%d",meanHumidity);
+  sprintf(msgTemperature,"%d",meanTemperature);
 
   //update 
   Serial.println("Updating data in orion...");
@@ -172,5 +172,5 @@ Serial.println(bodyRequest);
 }
 ```
 Enjoy and explore all Helix features with NodeMCU.
-#### © Helix Platform 2020, All rights reserved.
+#### © Helix Platform 2021, All rights reserved.
 <a href="https://gethelix.org">Helix</a> for a better world! 
