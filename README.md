@@ -55,8 +55,6 @@ We crossed Jupiter's orbit!
    
    <a href="docs/helix_with_mqtt.md">Creating smart devices with MQTT</a> 
    
-   <a href="https://www.postman.com/fiware/workspace/fiware-foundation-ev-s-public-workspace/folder/513743-f75eabf1-1a66-45ab-b4c5-47d3dc0696f9?ctx=documentation">FIWARE - Postman Collections</a> - New
-   
    <a href="https://play.google.com/store/apps/details?id=br.net.smit.helix">Helix app for Android</a> developed by <a href="http://www.smit.net.br">SMIT</a>
    
    <a href="https://play.google.com/store/apps/details?id=snr.lab.iotmqttpanel.prod">App IoT MQTT Panel for Android</a>
@@ -64,6 +62,8 @@ We crossed Jupiter's orbit!
    <a href="https://fiware-orion.readthedocs.io/en/master/index.html">Orion Context Broker</a> - New
    
    <a href="https://smartdatamodels.org/">Smart Data Models</a> - New
+   
+   <a href="https://www.postman.com/fiware/workspace/fiware-foundation-ev-s-public-workspace/folder/513743-f75eabf1-1a66-45ab-b4c5-47d3dc0696f9?ctx=documentation">FIWARE - Postman Collections</a> - New
    
    <a href="https://github.com/Fiware/tutorials.Subscriptions">FIWARE Subscriptions Tutorial</a> - New
    
