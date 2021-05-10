@@ -30,9 +30,9 @@ const char* ssid = "SSID";
 const char* password = "PASSWORD";
 
 //global variables
-int medianTemperature;
+int meanTemperature;
 float totalTemperature;
-int medianHumidity;
+int meanHumidity;
 float totalHumidity;
 
   
