@@ -79,12 +79,23 @@ We crossed Jupiter's orbit!
    
    <a href="docs/helix_with_python.md">Python code examples</a> - New
    
-## Projects
+## Academic Papers
+
+  <a href="https://ieeexplore.ieee.org/document/8905583">Helix SandBox: An Open Platform to Fast Prototype Smart Environments Applications</a> - IEEE
+  
+  <a href="http://journal.ftt.com.br/seer/index.php/FTT/article/view/140">Arquiteturas de Fog Computing para Internet das Coisas Baseadas nas Plataformas FIWARE e HELIX</a> - FTT Journal
+  
+  <a href="https://https://www.fatecsaocaetano.edu.br/fascitech/index.php/fascitech/article/view/172">Implementação de um Sistema de Blockchain para Garantir a Integridade de Informações de Contexto Distribuídas em Brokers Federados</a> - Fasci-tech
+  
+  <a href="https://www.fatecsaocaetano.edu.br/fascitech/index.php/fascitech/article/view/173">Smart Bike: Plataforma Aberta para Monitoramento e Gestão de Transporte Urbano baseado em Bicicletas Elétricas e IoT</a> - fasci-tech
+  
+  <a href="https://ieeexplore.ieee.org/document/890558http://journal.ftt.com.br/seer/index.php/FTT/article/view/110">SMART BABY: Aplicação dos Conceitos da Internet das Coisas (IoT) para Prevenção de Acidentes na Infância</a> - FTT Journal
+  
+## GitHub Projects
    
    <a href="https://github.com/matheus-maria/Blockchain">C.A.R.E Blockchain</a> - New
    
    <a href="https://github.com/felipe-mcunha/arquitetura-seguranca">Helix with IDM, PEP Proxy and AuthZForce</a> - New
    
-
 #### © Helix Platform 2021, All rights reserved.
 <a href="https://gethelix.org">Helix</a> for a better world! 
