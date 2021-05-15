@@ -85,7 +85,7 @@ We crossed Jupiter's orbit!
   
   <a href="http://journal.ftt.com.br/seer/index.php/FTT/article/view/140">Arquiteturas de Fog Computing para Internet das Coisas Baseadas nas Plataformas FIWARE e HELIX</a> - FTT Journal
   
-  <a href="https://https://www.fatecsaocaetano.edu.br/fascitech/index.php/fascitech/article/view/172">Implementação de um Sistema de Blockchain para Integridade de Informações de Contexto Distribuídas em Brokers Federados</a> - Fasci-tech
+  <a href="https://www.fatecsaocaetano.edu.br/fascitech/index.php/fascitech/article/view/172">Implementação de um Sistema de Blockchain para Integridade de Informações de Contexto Distribuídas em Brokers Federados</a> - Fasci-tech
   
   <a href="https://www.fatecsaocaetano.edu.br/fascitech/index.php/fascitech/article/view/173">Smart Bike: Plataforma Aberta para Monitoramento e Gestão de Transporte Urbano baseado em Bicicletas Elétricas e IoT</a> - Fasci-tech
   
