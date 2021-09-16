@@ -1,6 +1,6 @@
 ## Requirements before Helix Sandbox NG installation
 
-Use any local hypervisor like Virtual Box, VMware and KVM or if you need a global Internet access we suggest any Cloud Service Provicer (CSP) like AWS, Azure or Google. 
+Use any local hypervisor like Virtual Box, VMware and KVM or if you need a global Internet access we suggest any Cloud Service Provider (CSP) like AWS, Azure or Google. 
 
 Minimum server configuration: 1 vCPU, 1GB RAM and 16GB HDD or SSD.
 
