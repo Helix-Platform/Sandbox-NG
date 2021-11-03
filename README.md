@@ -89,6 +89,8 @@ We crossed Jupiter's orbit!
   
   <a href="https://www.fatecsaocaetano.edu.br/fascitech/index.php/fascitech/article/view/173">Smart Bike: Plataforma Aberta para Monitoramento e Gestão de Transporte Urbano baseado em Bicicletas Elétricas e IoT</a> - Fasci-tech
   
+  <a href="https://www.fatecsaocaetano.edu.br/fascitech/index.php/fascitech/article/view/180">Modelo de Rastreabilidade de Medicamentos de Alto Custo no Sistema Público de Saúde (C.A.R.E. – Control Activities for Remedy)</a> - Fasci-tech - New
+  
   <a href="http://journal.ftt.com.br/seer/index.php/FTT/article/view/110">Smart Baby: Aplicação dos Conceitos da Internet das Coisas (IoT) para Prevenção de Acidentes na Infância</a> - FTT Journal
   
 ## GitHub Projects
