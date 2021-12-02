@@ -95,9 +95,16 @@ We crossed Jupiter's orbit!
   
 ## GitHub Projects
    
+   <a href="https://github.com/m4n3dw0lf/SecureFiware">SecureFiware CoAP with DTLS</a> - New
+   
    <a href="https://github.com/matheus-maria/Blockchain">C.A.R.E Blockchain</a> - New
    
    <a href="https://github.com/felipe-mcunha/arquitetura-seguranca">Helix with IDM, PEP Proxy and AuthZForce</a> - New
+   
+      
+## Our History
+   
+   <a href="https://github.com/helix-iot/helix-sandbox">Helix Sandbox Release Mars v0.0.2</a> - New
    
 #### © Helix Platform 2021, All rights reserved.
 <a href="https://gethelix.org">Helix</a> for a better world! 
