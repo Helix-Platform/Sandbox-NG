@@ -102,7 +102,7 @@ We crossed Jupiter's orbit!
    <a href="https://github.com/felipe-mcunha/arquitetura-seguranca">Helix with IDM, PEP Proxy and AuthZForce</a> - New
    
       
-## Our History
+## Our Story
    
    <a href="https://github.com/helix-iot/helix-sandbox">Helix Sandbox Release Mars v0.0.2</a> - New
    
