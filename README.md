@@ -65,6 +65,8 @@ We crossed Jupiter's orbit!
    
    <a href="https://www.postman.com/fiware/workspace/fiware-foundation-ev-s-public-workspace/folder/513743-f75eabf1-1a66-45ab-b4c5-47d3dc0696f9?ctx=documentation">FIWARE - Postman Collections</a> - New
    
+   <a href="https://documenter.getpostman.com/view/513743/fiware-entity-relationships/RVu8gSCh">FIWARE - Entity Relationships - Postman Collections</a> - New
+   
    <a href="https://fiware-tutorials.readthedocs.io/en/latest/index.html">FIWARE - NGSIv2 Tutorial</a> - New
          
    <a href="http://telefonicaid.github.io/fiware-orion/api/v2/stable/">FIWARE - NGSIv2 Specification</a>  
