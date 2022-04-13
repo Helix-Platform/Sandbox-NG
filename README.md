@@ -85,6 +85,8 @@ We crossed Jupiter's orbit!
 
   <a href="https://ieeexplore.ieee.org/document/8905583">Helix SandBox: An Open Platform to Fast Prototype Smart Environments Applications</a> - IEEExplore
   
+  <a href="https://ieeexplore.ieee.org/document/9540164">Intelligent OpenRAN orchestration assisted by a Reinforcement Learning Resource Management policy</a> - IEEExplore
+  
   <a href="https://www.mdpi.com/1424-8220/21/22/7707">Enabling the Industrial Internet of Things to Cloud Continuum in a Real City Environment</a> - Sensors 
   
   <a href="http://journal.ftt.com.br/seer/index.php/FTT/article/view/140">Arquiteturas de Fog Computing para Internet das Coisas Baseadas nas Plataformas FIWARE e HELIX</a> - FTT Journal
@@ -108,7 +110,7 @@ We crossed Jupiter's orbit!
       
 ## Our Story
    
-   <a href="https://github.com/helix-iot/helix-sandbox">Helix Sandbox Release Mars v0.0.2</a> - New
+   <a href="https://github.com/helix-iot/helix-sandbox">Helix Sandbox Release Mars v0.0.2</a> - Old
    
 #### © Helix Platform 2021, All rights reserved.
 <a href="https://gethelix.com.br">Helix</a> for a better world! 
