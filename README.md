@@ -59,15 +59,15 @@ We crossed Jupiter's orbit!
    
    <a href="https://play.google.com/store/apps/details?id=snr.lab.iotmqttpanel.prod">App IoT MQTT Panel for Android</a>
   
-   <a href="https://fiware-orion.readthedocs.io/en/master/index.html">Orion Context Broker</a> - New
+   <a href="https://fiware-orion.readthedocs.io/en/master/index.html">Orion Context Broker</a>
    
    <a href="https://smartdatamodels.org/">Smart Data Models</a> - New
    
-   <a href="https://www.postman.com/fiware/workspace/fiware-foundation-ev-s-public-workspace/folder/513743-f75eabf1-1a66-45ab-b4c5-47d3dc0696f9?ctx=documentation">FIWARE - Postman Collections</a> - New
+   <a href="https://www.postman.com/fiware/workspace/fiware-foundation-ev-s-public-workspace/folder/513743-f75eabf1-1a66-45ab-b4c5-47d3dc0696f9?ctx=documentation">FIWARE - Postman Collections</a>
    
    <a href="https://documenter.getpostman.com/view/513743/fiware-entity-relationships/RVu8gSCh">FIWARE - Entity Relationships - Postman Collections</a> - New
    
-   <a href="https://fiware-tutorials.readthedocs.io/en/latest/index.html">FIWARE - NGSIv2 Tutorial</a> - New
+   <a href="https://fiware-tutorials.readthedocs.io/en/latest/index.html">FIWARE - NGSIv2 Tutorial</a>
          
    <a href="http://telefonicaid.github.io/fiware-orion/api/v2/stable/">FIWARE - NGSIv2 Specification</a>  
    
@@ -77,7 +77,7 @@ We crossed Jupiter's orbit!
    
    <a href="docs/helix_with_esp32.md">ESP32 to Helix</a> - New
    
-   <a href="docs/helix_with_python.md">Python code examples</a> - New
+   <a href="docs/helix_with_python.md">Python code examples</a>
    
    <a href="https://github.com/Helix-Platform/helixbroker">Helix Broker a lightweight NGSI Broker for edge computing</a> - New
    
@@ -101,9 +101,9 @@ We crossed Jupiter's orbit!
   
 ## GitHub Projects
    
-   <a href="https://github.com/m4n3dw0lf/SecureFiware">SecureFiware CoAP with DTLS</a> - New
+   <a href="https://github.com/m4n3dw0lf/SecureFiware">SecureFiware CoAP with DTLS</a>
    
-   <a href="https://github.com/matheus-maria/Blockchain">C.A.R.E Blockchain</a> - New
+   <a href="https://github.com/matheus-maria/Blockchain">C.A.R.E Blockchain</a>
    
    <a href="https://github.com/felipe-mcunha/arquitetura-seguranca">Helix with IDM, PEP Proxy and AuthZForce</a> - New
    
