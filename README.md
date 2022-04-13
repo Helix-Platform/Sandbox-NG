@@ -79,6 +79,8 @@ We crossed Jupiter's orbit!
    
    <a href="docs/helix_with_python.md">Python code examples</a> - New
    
+   <a href="https://github.com/Helix-Platform/helixbroker">Helix Broker a lightweight NGSI Broker for edge computing</a> - New
+   
 ## Academic Papers
 
   <a href="https://ieeexplore.ieee.org/document/8905583">Helix SandBox: An Open Platform to Fast Prototype Smart Environments Applications</a> - IEEExplore
