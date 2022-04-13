@@ -87,7 +87,7 @@ We crossed Jupiter's orbit!
   
   <a href="https://ieeexplore.ieee.org/document/9540164">Intelligent OpenRAN orchestration assisted by a Reinforcement Learning Resource Management policy</a> - IEEExplore
   
-  <a href="https://www.mdpi.com/1424-8220/21/22/7707">Enabling the Industrial Internet of Things to Cloud Continuum in a Real City Environment</a> - Sensors 
+  <a href="https://www.mdpi.com/1424-8220/21/22/7707">Enabling the Industrial Internet of Things to Cloud Continuum in a Real City Environment</a> - Sensors - New
   
   <a href="http://journal.ftt.com.br/seer/index.php/FTT/article/view/140">Arquiteturas de Fog Computing para Internet das Coisas Baseadas nas Plataformas FIWARE e HELIX</a> - FTT Journal
   
@@ -95,7 +95,7 @@ We crossed Jupiter's orbit!
   
   <a href="https://www.fatecsaocaetano.edu.br/fascitech/index.php/fascitech/article/view/173">Smart Bike: Plataforma Aberta para Monitoramento e Gestão de Transporte Urbano baseado em Bicicletas Elétricas e IoT</a> - Fasci-tech
   
-  <a href="https://www.fatecsaocaetano.edu.br/fascitech/index.php/fascitech/article/view/180">Modelo de Rastreabilidade de Medicamentos de Alto Custo no Sistema Público de Saúde (CARE)</a> - Fasci-tech - New
+  <a href="https://www.fatecsaocaetano.edu.br/fascitech/index.php/fascitech/article/view/180">Modelo de Rastreabilidade de Medicamentos de Alto Custo no Sistema Público de Saúde (CARE)</a> - Fasci-tech
   
   <a href="http://journal.ftt.com.br/seer/index.php/FTT/article/view/110">Smart Baby: Aplicação dos Conceitos da Internet das Coisas (IoT) para Prevenção de Acidentes na Infância</a> - FTT Journal
   
