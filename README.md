@@ -85,6 +85,8 @@ We crossed Jupiter's orbit!
 
   <a href="https://ieeexplore.ieee.org/document/8905583">Helix SandBox: An Open Platform to Fast Prototype Smart Environments Applications</a> - IEEExplore
   
+  <a href="https://www.mdpi.com/1424-8220/21/22/7707">Enabling the Industrial Internet of Things to Cloud Continuum in a Real City Environment</a> - Sensors 
+  
   <a href="http://journal.ftt.com.br/seer/index.php/FTT/article/view/140">Arquiteturas de Fog Computing para Internet das Coisas Baseadas nas Plataformas FIWARE e HELIX</a> - FTT Journal
   
   <a href="https://www.fatecsaocaetano.edu.br/fascitech/index.php/fascitech/article/view/172">Implementação de um Sistema de Blockchain para Integridade de Informações de Contexto Distribuídas em Brokers Federados</a> - Fasci-tech
