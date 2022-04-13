@@ -112,5 +112,5 @@ We crossed Jupiter's orbit!
    
    <a href="https://github.com/helix-iot/helix-sandbox">Helix Sandbox Release Mars v0.0.2</a> - Old
    
-#### © Helix Platform 2021, All rights reserved.
+#### © Helix Platform 2022, All rights reserved.
 <a href="https://gethelix.com.br">Helix</a> for a better world! 
