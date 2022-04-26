@@ -1,7 +1,7 @@
 ## NodeMCU with LDR Sensors to Helix by MQTT
 #### About
 
-The code below automatically creates the sensor in the Helix Sandbox and sends the luminosity from LDR to Helix using the MQTT message with the POST method. Moreover, this code uses the force update to guarantee the storage persistence on the database. 
+The code below automatically creates the sensor in the Helix Sandbox and sends the luminosity from LDR to Helix using the MQTT messages. Moreover, this code uses the force update to guarantee the storage persistence on the database. 
 You can use the Arduino IDE to create the code for your NodeMCU.
 
 #### Electrical Diagram
