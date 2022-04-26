@@ -77,6 +77,8 @@ We crossed Jupiter's orbit!
    
    <a href="docs/helix_with_esp32.md">ESP32 to Helix</a> - New
    
+   <a href="docs/helix_with_node_luminosity.md">NodeMCU send luminosity by MQTT to Helix</a> - New
+   
    <a href="docs/helix_with_python.md">Python code examples</a>
    
    <a href="https://github.com/Helix-Platform/helixbroker">Helix Broker a lightweight NGSI Broker for edge computing</a> - New
