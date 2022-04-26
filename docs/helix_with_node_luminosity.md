@@ -1,12 +1,12 @@
-## ESP32 to Helix 
+## NodeMCU with LDR Sensors to Helix by MQTT
 #### About
 
-The code below automatically creates the sensor in the Helix Sandbox and sends the temperature and humidity from DHT-11 to Helix using the restful message with the POST method. Moreover, this code uses the force update to guarantee the storage persistence on the database. 
-You can use the Arduino IDE to create the code for your ESP32.
+The code below automatically creates the sensor in the Helix Sandbox and sends the luminosity from LDR to Helix using the MQTT message with the POST method. Moreover, this code uses the force update to guarantee the storage persistence on the database. 
+You can use the Arduino IDE to create the code for your NodeMCU.
 
 #### Electrical Diagram
 
-![](../images/esp_dht-11.PNG)
+![](../images/node_mcu_ldr.PNG)
 
 #### Code
 
