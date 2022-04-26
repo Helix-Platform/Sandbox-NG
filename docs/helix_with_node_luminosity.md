@@ -261,4 +261,4 @@ void loop()
 }
 ```
 Enjoy and explore all Helix features with NodeMCU.
-#### © Helix Platform 2021, All rights reserved.
+#### © Helix Platform 2022, All rights reserved.
