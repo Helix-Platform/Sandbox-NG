@@ -1,4 +1,4 @@
-## NodeMCU with LDR Sensors to Helix by MQTT
+## NodeMCU with LDR Sensor
 #### About
 
 The code below automatically creates the sensor in the Helix Sandbox and sends the luminosity from LDR to Helix using the MQTT messages. Moreover, this code uses the force update to guarantee the storage persistence on the database. 
