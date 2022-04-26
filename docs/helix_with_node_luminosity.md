@@ -21,9 +21,9 @@ You can use the Arduino IDE to create the code for your NodeMCU.
  
 //defines:
 //defines de id mqtt e tópicos para publicação e subscribe
-#define TOPICO_SUBSCRIBE "/iot/lamp002/cmd"     //tópico MQTT de escuta
-#define TOPICO_PUBLISH   "/iot/lamp002/attrs"    //tópico MQTT de envio de informações para Broker
-#define TOPICO_PUBLISH2   "/iot/lamp002/attrs/l"    //tópico MQTT de envio de informações para Broker
+#define TOPICO_SUBSCRIBE "/iot/lamp001/cmd"     //tópico MQTT de escuta
+#define TOPICO_PUBLISH   "/iot/lamp001/attrs"    //tópico MQTT de envio de informações para Broker
+#define TOPICO_PUBLISH2   "/iot/lamp001/attrs/l"    //tópico MQTT de envio de informações para Broker
                                                    //IMPORTANTE: recomendamos fortemente alterar os nomes
                                                    //            desses tópicos. Caso contrário, há grandes
                                                    //            chances de você controlar e monitorar o NodeMCU
@@ -50,11 +50,11 @@ You can use the Arduino IDE to create the code for your NodeMCU.
  
  
 // WIFI
-const char* SSID = "TP-LINK_LAB70_2G_1"; // SSID / nome da rede WI-FI que deseja se conectar
-const char* PASSWORD = "s@lv@dor@ren@"; // Senha da rede WI-FI que deseja se conectar
+const char* SSID = "SSID"; // SSID / nome da rede WI-FI que deseja se conectar
+const char* PASSWORD = "password"; // Senha da rede WI-FI que deseja se conectar
   
 // MQTT
-const char* BROKER_MQTT = "172.16.0.20"; //URL do broker MQTT que se deseja utilizar
+const char* BROKER_MQTT = "<ip>"; //URL do broker MQTT que se deseja utilizar
 int BROKER_PORT = 1883; // Porta do Broker MQTT
  
 
@@ -137,14 +137,14 @@ void mqtt_callback(char* topic, byte* payload, unsigned int length)
     //verifica se deve colocar nivel alto de tensão na saída D0:
     //IMPORTANTE: o Led já contido na placa é acionado com lógica invertida (ou seja,
     //enviar HIGH para o output faz o Led apagar / enviar LOW faz o Led acender)
-    if (msg.equals("lamp002@on|"))
+    if (msg.equals("lamp001@on|"))
     {
         digitalWrite(D4, LOW);
         EstadoSaida = '0';
     }
  
     //verifica se deve colocar nivel alto de tensão na saída D0:
-    if (msg.equals("lamp002@off|"))
+    if (msg.equals("lamp001@off|"))
     {
         digitalWrite(D4, HIGH);
         EstadoSaida = '1';
@@ -245,6 +245,7 @@ void InitOutput(void)
 void loop() 
 {   
     char msgBuffer[1];
+    
     //garante funcionamento das conexões WiFi e ao broker MQTT
     VerificaConexoesWiFIEMQTT();
  
