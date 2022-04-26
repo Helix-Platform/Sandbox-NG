@@ -51,10 +51,10 @@ You can use the Arduino IDE to create the code for your NodeMCU.
  
 // WIFI
 const char* SSID = "SSID"; // SSID / nome da rede WI-FI que deseja se conectar
-const char* PASSWORD = "password"; // Senha da rede WI-FI que deseja se conectar
+const char* PASSWORD = "PASSWORD"; // Senha da rede WI-FI que deseja se conectar
   
 // MQTT
-const char* BROKER_MQTT = "<ip>"; //URL do broker MQTT que se deseja utilizar
+const char* BROKER_MQTT = "IP_HELIX"; //URL do broker MQTT que se deseja utilizar
 int BROKER_PORT = 1883; // Porta do Broker MQTT
  
 
