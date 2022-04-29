@@ -11,8 +11,6 @@ The lightweight approach based on microservices is capable of run with low inves
 
 The platform natively supports HTTP (Hypertext Transfer Protocol) and MQTT (Message Queue Telemetry Transport) protocols through the embedded integration of Eclipse-Mosquitto, suitable for use with low power devices.
 
-The Helix platform provides Cloud Service in a pay-as-you-go payment and a Bespoke platform deployed over Nebula which integrates advanced security features, databases like PostgreSQL, MySQL, MongoDB or AWS DynamoDB, as well as BigData platforms like Hadoop, Storm, Spark and Flink, in addition to interoperating with IoT protocols such as CoAP, LWM2M, OPC-UA, LoRaWAN and SigFox.
-
 Helix Sandbox NG is currently in use as Fiware Lab São Paulo's main image.
 
 Give your smart environment application the ability to analyse, share, manage and use in real time at right time!
