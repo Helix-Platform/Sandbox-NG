@@ -1,10 +1,10 @@
 ## NodeMCU with LED + LDR Sensor
 #### About
 
-The code below automatically creates the sensor in the Helix Sandbox and sends the luminosity from LDR to Helix using the MQTT messages. Moreover, this code uses the force update to guarantee the storage persistence on the database. 
+The code below automatically creates the sensor and actuator in the Helix Sandbox and sends the luminosity from LDR and LED state to Helix using the MQTT messages. Moreover, this code uses the force update to guarantee the storage persistence on the database. 
 You can use the Arduino IDE to create the code for your NodeMCU.
 
-## Use the MQTT Tutorial for this lab!
+#### Use the MQTT Tutorial for this lab!
 
 Click <a href="https://github.com/Helix-Platform/Sandbox-NG/blob/master/postman/Go Helix! MQTT new.postman_collection.json">here</a> to access the Postman collection! 
 
