@@ -64,7 +64,7 @@ int BROKER_PORT = 1883; // Porta do Broker MQTT
 //Variáveis e objetos globais
 WiFiClient espClient; // Cria o objeto espClient
 PubSubClient MQTT(espClient); // Instancia o Cliente MQTT passando o objeto espClient
-char EstadoSaida = '0';  //variável que armazena o estado atual da saída
+char EstadoSaida = '1';  //variável que armazena o estado atual da saída
   
 //Prototypes
 void initSerial();
@@ -85,6 +85,8 @@ void setup()
     initSerial();
     initWiFi();
     initMQTT();
+    delay(5000);
+    MQTT.publish(TOPICO_PUBLISH, "s|off");
 }
   
 //Função: inicializa comunicação serial com baudrate 115200 (para fins de monitorar no terminal serial 
