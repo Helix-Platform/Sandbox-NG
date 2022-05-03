@@ -11,7 +11,6 @@ You can use the Arduino IDE to create the code for your NodeMCU.
 #### Code
 
 ```//Programa: NodeMCU e MQTT - Controle e Monitoramento IoT
-//Autor: Pedro Bertoleti
 //Autor: Fábio Henrique Cabrini
 //Resumo: Esse programa possibilita ligar e desligar o led onboard, além de mandar o status para o Broker MQTT possibilitando o Helix saber
 //se o led está ligado ou desligado.
@@ -23,7 +22,7 @@ You can use the Arduino IDE to create the code for your NodeMCU.
 //defines de id mqtt e tópicos para publicação e subscribe
 #define TOPICO_SUBSCRIBE "/iot/lamp001/cmd"     //tópico MQTT de escuta
 #define TOPICO_PUBLISH   "/iot/lamp001/attrs"    //tópico MQTT de envio de informações para Broker
-#define TOPICO_PUBLISH2   "/iot/lamp001/attrs/l"    //tópico MQTT de envio de informações para Broker
+#define TOPICO_PUBLISH_2   "/iot/lamp001/attrs/l"    //tópico MQTT de envio de informações para Broker
                                                    //IMPORTANTE: recomendamos fortemente alterar os nomes
                                                    //            desses tópicos. Caso contrário, há grandes
                                                    //            chances de você controlar e monitorar o NodeMCU
@@ -54,7 +53,7 @@ const char* SSID = "SSID"; // SSID / nome da rede WI-FI que deseja se conectar
 const char* PASSWORD = "PASSWORD"; // Senha da rede WI-FI que deseja se conectar
   
 // MQTT
-const char* BROKER_MQTT = "IP_HELIX"; //URL do broker MQTT que se deseja utilizar
+const char* BROKER_MQTT = "IP"; //URL do broker MQTT que se deseja utilizar
 int BROKER_PORT = 1883; // Porta do Broker MQTT
  
 
@@ -245,7 +244,6 @@ void InitOutput(void)
 void loop() 
 {   
     char msgBuffer[1];
-    
     //garante funcionamento das conexões WiFi e ao broker MQTT
     VerificaConexoesWiFIEMQTT();
  
@@ -256,7 +254,7 @@ void loop()
     int sensorValue = analogRead(A0);   // Ler o pino Analógico A0 onde está o LDR
     float voltage = sensorValue * (3.3 / 1024.0);   // Converter a leitura analógica (que vai de 0 - 1023) para uma voltagem (0 - 3.3V), quanto de acordo com a intensidade de luz no LDR a voltagem diminui.
     Serial.println(voltage);
-    MQTT.publish(TOPICO_PUBLISH2,dtostrf(voltage, 4, 2, msgBuffer));
+    MQTT.publish(TOPICO_PUBLISH_2,dtostrf(voltage, 4, 2, msgBuffer));
     //keep-alive da comunicação com broker MQTT
     MQTT.loop();
 }
