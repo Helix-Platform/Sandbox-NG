@@ -7,11 +7,9 @@ The Helix Sandbox NG (Next Generation) is a back-end platform for prototyping Io
 
 Designed to fasten the development of PoCs (Proof of Concept), MVPs (Minimum Viable Product), accelerate IoT learning by undergraduate and graduate students, enhance scientific research and experimental applications in the areas of Smart Cities, Industry 4.0, agrifood, logistics, ports, retail, home, health and content with minimal cost and computational resources. The Sandbox is free to use for educational propose and grants 90 days of free use for commercial applications. 
 
-The lightweight approach based on microservices is capable of run with low investment in any CSP (Cloud Service Providers), hypervisor or on your own machine. The architecture integrates the new generation of the powerful CEF Context Broker (Orion Context Broker), which enables a new generation of applications for intelligent environments, exploring context information on a large scale and in real-time, with an emphasis on interoperability based on the NGSIv2 API defined by ETSI (European Network of Telecommunications Standards) and that integrates the CEF (Connecting Europe Facility).
+The lightweight approach based on microservices is capable of run with low investment in any CSP (Cloud Service Providers), hypervisor or on your own machine. The architecture integrates the new generation of the powerful CEF Context Broker (Orion Context Broker), which enables a new generation of applications for intelligent environments, exploring context information on a large scale and in run-time, with an emphasis on interoperability based on the NGSIv2 API defined by ETSI (European Telecommunications Standards Institute) and that integrates the CEF (Connecting Europe Facility).
 
 The platform natively supports HTTP (Hypertext Transfer Protocol) and MQTT (Message Queue Telemetry Transport) protocols through the embedded integration of Eclipse-Mosquitto, suitable for use with low power devices.
-
-Helix Sandbox NG is currently in use as Fiware Lab São Paulo's main image.
 
 Give your smart environment application the ability to analyse, share, manage and use in real time at right time!
 
