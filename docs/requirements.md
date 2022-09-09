@@ -6,7 +6,7 @@ Minimum server configuration: 1 vCPU, 1GB RAM and 16GB HDD or SSD.
 
 Compatible with most Linux distribution, but Ubuntu Server 18.04.6 LTS has been validated exhaustively for us.
 
-You need to open all the ports below in the firewall settings at your CSP:
+You need to open all ports below in firewall settings on your CSP and Iptables:
 
 ```
 Port         Transport             Protocol 
