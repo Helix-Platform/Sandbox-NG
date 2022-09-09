@@ -87,11 +87,11 @@ We crossed Jupiter's orbit!
   
   <a href="https://ieeexplore.ieee.org/document/9540164">Intelligent OpenRAN orchestration assisted by a Reinforcement Learning Resource Management policy</a> - IEEExplore
   
-  <a href="https://www.mdpi.com/1424-8220/21/22/7707">Enabling the Industrial Internet of Things to Cloud Continuum in a Real City Environment</a> - Sensors - New
+  <a href="https://www.mdpi.com/1424-8220/21/22/7707">Enabling the Industrial Internet of Things to Cloud Continuum in a Real City Environment</a> - Sensors
   
   <a href="https://www.teses.usp.br/teses/disponiveis/3/3142/tde-12082022-132117/pt-br.php">Helix Multi-layered: a multi-level context broker federation to establish the cloud-to-things continuum</a> - Teses USP - New
   
-  <a href="https://rdcu.be/cUm0z">Helix Multi‑layered: a context broker federation for an efficient cloud‑to‑things continuum</a> - Annals of Telecommunications, Springer Nature - New
+  <a href="https://rdcu.be/cUm0z">Helix Multi‑layered: a context broker federation for an efficient cloud‑to‑things continuum</a> - Annals of Telecommunications - New
   
   <a href="http://journal.ftt.com.br/seer/index.php/FTT/article/view/140">Arquiteturas de Fog Computing para Internet das Coisas Baseadas nas Plataformas FIWARE e HELIX</a> - FTT Journal
   
