@@ -91,7 +91,7 @@ We crossed Jupiter's orbit!
   
   <a href="https://www.teses.usp.br/teses/disponiveis/3/3142/tde-12082022-132117/pt-br.php">Helix Multi-layered: a multi-level context broker federation to establish the cloud-to-things continuum</a> - Teses USP - New
   
-  <a href="https://rdcu.be/cUm0z">Helix Multi‑layered: a context broker federation foranefficient cloud‑to‑things continuum</a> - Annals of Telecommunications, Springer Nature - New
+  <a href="https://rdcu.be/cUm0z">Helix Multi‑layered: a context broker federation for an efficient cloud‑to‑things continuum</a> - Annals of Telecommunications, Springer Nature - New
   
   <a href="http://journal.ftt.com.br/seer/index.php/FTT/article/view/140">Arquiteturas de Fog Computing para Internet das Coisas Baseadas nas Plataformas FIWARE e HELIX</a> - FTT Journal
   
