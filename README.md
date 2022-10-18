@@ -55,7 +55,7 @@ We crossed Jupiter's orbit!
    
    <a href="https://play.google.com/store/apps/details?id=snr.lab.iotmqttpanel.prod">App IoT MQTT Panel for Android</a>
   
-   <a href="https://fiware-orion.readthedocs.io/en/master/index.html">Orion Context Broker</a>
+   <a href="https://fiware-orion.readthedocs.io/en/master/index.html">Orion Context Broker API walkthrough</a>
    
    <a href="https://smartdatamodels.org/">Smart Data Models</a> - New
    
