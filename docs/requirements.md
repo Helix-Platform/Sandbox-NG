@@ -6,12 +6,11 @@ Minimum server configuration: 1 vCPU, 1GB RAM and 16GB HDD or SSD.
 
 Compatible with most Linux distribution, but Ubuntu Server 18.04.6 LTS has been validated exhaustively for us.
 
-You need to open all ports below in firewall settings on your CSP and Iptables:
+You need to open all ports below in firewall settings on your CSP and iptables (ufw) using "sudo ufw allow port":
 
 ```
 Port         Transport             Protocol 
 
-22              TCP            SSH 
 5000            TCP            Helix Web Interface
 3030            TCP            Helix Orchestrator
 22443           TCP            Helix Hardware Monitor
