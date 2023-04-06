@@ -68,6 +68,8 @@ We crossed Jupiter's orbit!
    <a href="http://telefonicaid.github.io/fiware-orion/api/v2/stable/">FIWARE - NGSIv2 Specification</a>  
    
    <a href="docs/helix_with_node-red.md">Dashboard with Node-RED</a>
+   
+   <a href="http://freeboard.io/">Dashboard with freeboard.io</a>
   
    <a href="docs/helix_with_nodemcu.md">NodeMCU to Helix</a> 
    
